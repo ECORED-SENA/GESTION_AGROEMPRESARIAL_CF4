@@ -73,7 +73,7 @@ export default {
         nombreRuta: 'tema6',
         icono: 'far fa-file-alt',
         numero: '6',
-        titulo: 'Proceso Administrativo:',
+        titulo: 'Proceso Administrativo',
         desarrolloContenidos: true,
         subMenu: [
           {

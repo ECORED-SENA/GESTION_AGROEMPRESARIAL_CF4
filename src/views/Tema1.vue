@@ -24,13 +24,13 @@
         ul.lista-ul
           li 
             i.fas.fa-angle-right.colorvi
-            p <strong>Organizaciones privadas.</strong> son aquellas en las que los recursos son provistos por particulares.
+            p <strong>Organizaciones privadas:</strong> son aquellas en las que los recursos son provistos por particulares.
           li 
             i.fas.fa-angle-right.colorvi
-            p <strong>Organizaciones públicas.</strong>  aquellas organizaciones donde los recursos son de naturaleza pública o del gobierno nacional o local de las regiones donde opera.
+            p <strong>Organizaciones públicas:</strong>  aquellas organizaciones donde los recursos son de naturaleza pública o del gobierno nacional o local de las regiones donde opera.
           li 
             i.fas.fa-angle-right.colorvi
-            p <strong>Organizaciones Mixtas.</strong>   donde los recursos provienen de la asociación de particulares y del gobierno nacional o local.
+            p <strong>Organizaciones mixtas:</strong>   donde los recursos provienen de la asociación de particulares y del gobierno nacional o local.
       .col-lg-6
         img(src='@/assets/curso/tema1/img2.png', alt='Texto que describa la imagen')
     .row.mt-5
@@ -61,7 +61,7 @@
           table
             thead
               tr
-                th Actividad Empresarial
+                th Actividad empresarial
                 th Microempresa
                 th Pequeña
                 th Mediana
@@ -74,7 +74,7 @@
                 td.text-center > 431.196  y  ≤ 2.160.692
                 td.text-center > 2.160.692
               tr
-                td.text-center <strong>Industrial o Manufactura</strong>
+                td.text-center <strong>Industrial o manufactura</strong>
                 td.text-center ≤ 23.563
                 td.text-center > 23.563  y  ≤ 204.995
                 td.text-center > 204.995  y  ≤ 1.736.565
@@ -85,7 +85,7 @@
                 td.text-center > 32.988  y  ≤ 131.951
                 td.text-center > 131.951  y  ≤ 483.034
                 td.text-center > 483.034
-    p Sin embargo, el concepto de tamaño de las empresas obedece también al nivel de recursos con que opera la empresa, lo que está contemplado desde el nivel de activos y el número de empleados que alberga para el desarrollar sus actividades, históricamente se ha venido manejando este concepto que si bien es un referente aun, el cual se debe contemplar.
+    p Sin embargo, el concepto de tamaño de las empresas obedece también al nivel de recursos con que opera la empresa, lo que está contemplado desde el nivel de activos y el número de empleados que alberga para el desarrollar sus actividades, históricamente se ha venido manejando este concepto que si bien es un referente aún, el cual se debe contemplar.
     .row.justify-content-center.mt-4
       .col-lg-10
         .titulo-sexto.color-acento-botones
@@ -97,7 +97,7 @@
               tr
                 th Tipo de empresa
                 th Número de empleados
-                th Nivel de activos en Salarios Mínimos Mensuales Legales Vigentes
+                th Nivel de activos en salarios mínimos mensuales legales vigentes
 
             tbody
               tr
@@ -125,7 +125,7 @@
         ul.lista-ul
           li 
             i.fas.fa-angle-right.colorvi
-            p.mb-0 Sociedades Limitadas
+            p.mb-0 Sociedades limitadas
           li 
             i.fas.fa-angle-right.colorvi
             p.mb-0 Sociedades anónimas simplificadas
@@ -154,10 +154,10 @@
 
           li 
             i.fas.fa-angle-right.colorvi
-            p <strong>Sociedades de Capital:</strong>    las que se conforman exclusivamente por aportes de capital sin identificar su aportante, caso las organizaciones conformadas por acciones, sociedades anónimas.
+            p <strong>Sociedades de capital:</strong>    las que se conforman exclusivamente por aportes de capital sin identificar su aportante, caso las organizaciones conformadas por acciones, sociedades anónimas.
           li 
             i.fas.fa-angle-right.colorvi
-            p <strong>Sociedades Mixtas:</strong>     se conforman por personas y su aporte en capital, ejemplo las sociedades limitadas, donde figuran las personas que conforman la empresa y cuanto es su aporte en dinero.
+            p <strong>Sociedades mixtas:</strong>     se conforman por personas y su aporte en capital, ejemplo las sociedades limitadas, donde figuran las personas que conforman la empresa y cuanto es su aporte en dinero.
     
     .row.mt-5
       .col-lg-6
@@ -165,14 +165,14 @@
         ul.lista-ul
           li 
             i.fas.fa-angle-right.colorvi
-            p <strong>Comerciales:</strong>    Son aquellas empresas que se dedican a la intermediación comercial meramente, su función es captar mercancías de oferentes y vincularlas a demandantes que las requieran, es decir compra y venta de mercancías meramente.
+            p <strong>Comerciales:</strong>    son aquellas empresas que se dedican a la intermediación comercial meramente, su función es captar mercancías de oferentes y vincularlas a demandantes que las requieran, es decir compra y venta de mercancías meramente.
           li 
             i.fas.fa-angle-right.colorvi
-            p <strong>Industriales o de Manufactura:</strong>    son las empresas que se dedican a la transformación de materias primas, elaboración y fabricación de bienes y productos.
+            p <strong>Industriales o de manufactura:</strong>    son las empresas que se dedican a la transformación de materias primas, elaboración y fabricación de bienes y productos.
 
           li 
             i.fas.fa-angle-right.colorvi
-            p <strong>Servicios:</strong>     Son las empresas cuya actividad consiste en proveer funciones intangibles, tal como es el caso de la educación, el transporte, la asistencia médica, etc., donde quizá para prestar el servicio requieren de recursos, pero estos no son parte del entregable al cliente.
+            p <strong>Servicios:</strong>     son las empresas cuya actividad consiste en proveer funciones intangibles, tal como es el caso de la educación, el transporte, la asistencia médica, etc., donde quizá para prestar el servicio requieren de recursos, pero estos no son parte del entregable al cliente.
             
       .col-lg-6
         img(src='@/assets/curso/tema1/img7.png', alt='Texto que describa la imagen')
@@ -183,7 +183,7 @@
           h3.text-white.mt-2 Según el sector productivo
         .col-lg-2
           img(src='@/assets/curso/tema1/ico1.svg', alt='Texto que describa la imagen')
-    p.mt-4 El análisis del mercado y de la segmentación del mismo, permite que las empresas u organizaciones desarrollen iniciativas estratégicas y tácticas diferenciales a cada tipo de segmento o tipo de cliente, dependiendo de la forma en la que perciben la propuesta de valor o las formas en que requieren el producto.
+    p.mt-4 En Colombia la economía se estructura a partir del tipo de procesos de producción que desarrollan las organizaciones empresariales las cuales, desde un enfoque convencional, se dividen en tres sectores:
     TabsA.color-acento-botones.mb-5
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -266,7 +266,7 @@
 
       .col-lg-9
         .row.p-3.colort3
-          p.mb-4 <strong>Ventas y Comercialización:</strong>  son el conjunto de actividades concernientes a la búsqueda de clientes, el desarrollo de oferta y venta efectiva de productos o los servicios que la empresa presta.
+          p.mb-4 <strong>Ventas y comercialización:</strong>  son el conjunto de actividades concernientes a la búsqueda de clientes, el desarrollo de oferta y venta efectiva de productos o los servicios que la empresa presta.
           .row.mb-4
           .row.mb-2
     .row.mt-4
@@ -279,7 +279,7 @@
           .row.mb-4
     .titulo-sexto.color-acento-botones.mt-5
       h5 Figura 2
-      span Ejemplo de Organigrama de Áreas Funcionales para una empresa agropecuaria
+      span Ejemplo de organigrama de áreas funcionales para una empresa agropecuaria
     img(src='@/assets/curso/tema1/img18.svg', alt='Texto que describa la imagen')
     p.mt-5 Se recomienda que toda empresa agropecuaria defina esquemas gráficos que faciliten a los nuevos trabajadores, personal interno, externo y en general a todas las dependencias de la empresa, una mejor comprensión de la organización y sus dependencias. Esto sirve de base en los procesos de comunicación y de mejora continua.
 </template>

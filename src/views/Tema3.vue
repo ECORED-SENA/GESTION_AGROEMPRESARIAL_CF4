@@ -18,7 +18,7 @@
       li 
         .lista-ol--cuadro__vineta
           span 
-        h4 Diagrama de Causa – Efecto
+        h4 Diagrama de causa – efecto
     .row.mt-4
       .col-lg-5
         p Es una herramienta para identificar de manera estructurada las causas de un problema o efecto evidenciado a partir de un esquema gráfico que se asemeja a una espina de pescado que es como también se denomina a esta herramienta.
@@ -26,7 +26,7 @@
       .col-lg-7
         .titulo-sexto.color-acento-botones
           h5 figura
-          span Esquema de Diagrama causa efecto
+          span Esquema de diagrama causa efecto
         img.mt-2(src='@/assets/curso/tema3/img2.svg', alt='Texto que describa la imagen')
     ol.lista-ol--cuadro.mt-4
       li 
@@ -139,7 +139,7 @@
           .tarjeta.tarjeta--azul.color-secundario
             .p-4
               p.mt-4.line <strong>Productos vaca lechera:</strong>
-              p Se denominan así porque son los productos más desarrollados que producen los ingresos más altos en la empresa, ya están bien posicionados en el mercado, aunque cada vez es más difícil aumentar su crecimiento de ventas, porque el mercado ya está saturado o es inflexible. De los recursos de estos productos se pueden retirar utilidades con que vive la empresa e invertir en los otros productos como Estrellas e interrogantes incluso.
+              p Se denominan así porque son los productos más desarrollados que producen los ingresos más altos en la empresa, ya están bien posicionados en el mercado, aunque cada vez es más difícil aumentar su crecimiento de ventas, porque el mercado ya está saturado o es inflexible. De los recursos de estos productos se pueden retirar utilidades con que vive la empresa e invertir en los otros productos como estrellas e interrogantes incluso.
       .col-lg-12
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
@@ -199,11 +199,11 @@
       AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
         .row.justify-content-center(titulo="Fase de Introducción")
           .col-md-11.mb-4.mb-md-0
-            p Todo producto empieza comercialmente ven el momento en el que se lanza al mercado, se trata de una novedad para los clientes o consumidores porque lo desconocen, no conocen su desempeño, características etc.; lo que implica que las ventas sean bajas al principio, especialmente si la empresa o marca asociada no es muy conocida, por ello requiere de inversiones iniciales para su lanzamiento y distribución, colocación en tiendas, etc., haciendo por llegar a los clientes a través de estrategias de marketing, como promociones y publicidad.
+            p Todo producto empieza comercialmente ven el momento en el que se lanza al mercado, se trata de una novedad para los clientes o consumidores porque lo desconocen, no conocen su desempeño, características etc.; lo que implica que las ventas sean bajas al principio, especialmente si la empresa o marca asociada no es muy conocida, por ello requiere de inversiones iniciales para su lanzamiento y distribución, colocación en tiendas, etc., haciendo por llegar a los clientes a través de estrategias de <i>marketing</i>, como promociones y publicidad.
         .row.justify-content-center(titulo="Fase de Crecimiento")
           .col-md-11.mb-4.mb-md-0
-            p Después de la introducción de un producto, se da la fase del crecimiento. como un aumento de ventas en consecuencia de las acciones que se adelantaron durante la fase de introducción. Los consumidores conocieron el producto gracias a la promoción y publicidad y demás estrategias de marketing que se implementaron, por lo cual ha decidido confiar en la marca y seguir comprando o recomendar su compra. 
-            p Esta fase de crecimiento se caracteriza por el aumento sostenido de las ventas y por qué se empiezan a consolidar beneficios o utilidades del producto, hay que tener en cuenta que aparecerán competidores que intentarán hacer lo mismo y mejorar el producto; razón por la cual en esta fase es importante que la empresa siga llevando su estrategia de marketing para diferenciarse de la competencia y hacer mejoras al producto como ventaja competitiva. El cliente reconoce y le es muy importante que le mantengan la calidad del producto como el precio, por eso lo importante de añadir un valor o servicio extra. Por otro lado, como el producto se vuelve tendencia, es muy importante el aumento de la distribución o presencia comercial donde actúa para aumentar el nuevos clientes.
+            p Después de la introducción de un producto, se da la fase del crecimiento. como un aumento de ventas en consecuencia de las acciones que se adelantaron durante la fase de introducción. Los consumidores conocieron el producto gracias a la promoción y publicidad y demás estrategias de <i>marketing</i> que se implementaron, por lo cual ha decidido confiar en la marca y seguir comprando o recomendar su compra. 
+            p Esta fase de crecimiento se caracteriza por el aumento sostenido de las ventas y por qué se empiezan a consolidar beneficios o utilidades del producto, hay que tener en cuenta que aparecerán competidores que intentarán hacer lo mismo y mejorar el producto; razón por la cual en esta fase es importante que la empresa siga llevando su estrategia de <i>marketing</i> para diferenciarse de la competencia y hacer mejoras al producto como ventaja competitiva. El cliente reconoce y le es muy importante que le mantengan la calidad del producto como el precio, por eso lo importante de añadir un valor o servicio extra. Por otro lado, como el producto se vuelve tendencia, es muy importante el aumento de la distribución o presencia comercial donde actúa para aumentar el nuevos clientes.
             p En esta fase la empresa recupera su inversión y empieza obtener beneficio o utilidad, por lo cual se debe tener una adecuada inversión para que esta curva de crecimiento se aumente.
         .row.justify-content-center(titulo="Fase de Madurez")
           .col-md-11.mb-4.mb-md-0
@@ -218,7 +218,7 @@
             li 
               .lista-ol--cuadro__vineta
                 span 
-              h4 Relación de la Matriz BCG y el Ciclo de vida del producto
+              h4 Relación de la matriz BCG y el ciclo de vida del producto
       .row.mt-5
         .col-lg-6
           .row.colort4.p-3
@@ -242,11 +242,11 @@
           li 
             .lista-ol--cuadro__vineta
               span 
-            h4 Herramientas de información Estadística básica
+            h4 Herramientas de información estadística básica
     p.mt-4 Los procesos de gestión como los procesos de diagnóstico empresarial, requieren de información y su análisis permanente, de tal manera que evidencien el estado actual, la evolución de los mismos, o la tendencia y permitan la toma de decisiones. Una de las herramientas que permite este ejercicio con la información en los procesos es la estadística la cual se define como la ciencia que se dedica al ordenamiento y análisis de conjuntos de datos para obtener descripciones, explicaciones o predicciones sobre aspectos percibidos y analizados, para ello se describe los tipos de estadística y los elementos que se deben tener en ella: 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/AW1LM-d0YWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       ul.lista-ul.mb-5.mt-4
         li 
           i.fas.fa-check.colorvi
@@ -260,10 +260,10 @@
               img(src='@/assets/curso/tema3/img12.svg', alt='Texto que describa la imagen')
 
           .tarjeta.color-acento-botones.p-3(x="18%" y="68%" numero="+")
-            p <strong>Ordinales:</strong> que si bien no son numéricas, si definen un sentido de ordenamiento natural, ejemplo los días de la semana lunes marte, miércoles; también como Grande, mediano, pequeño.
+            p <strong>Nominales:</strong> que no tienen orden, ejemplo los colores, las razones por las cuales hay ausentismo en el trabajo, etc. 
 
           .tarjeta.color-acento-botones.p-3(x="51.5%" y="33%" numero="+")
-            p <strong>Nominales:</strong> que no tienen orden, ejemplo los colores, las razones por las cuales hay ausentismo en el trabajo, etc. 
+            p  <strong>Ordinales:</strong> que si bien no son numéricas, si definen un sentido de ordenamiento natural, ejemplo los días de la semana lunes marte, miércoles; también como Grande, mediano, pequeño.
 
           .tarjeta.color-acento-botones.p-3(x="83%" y="68%" numero="+")
             p <strong>Numérica:</strong> las cuales definen estrictamente un sentido de orden y se pueden hacer operaciones matemáticas con ellas, diferente a las otros tipos de variables.
@@ -328,7 +328,7 @@
                   th 30 Días
                   th 60 Días
                   th 90 Días
-                  th Total de Cartera           
+                  th Total de cartera           
               tbody
                 tr
                   td Cartera
@@ -416,17 +416,17 @@
           li 
             .lista-ol--cuadro__vineta
               span 
-            h4 Diagramas de Pastel
+            h4 Diagramas de pastel
     p Es otro esquema de representación gráfica estadística que busca descomponer una variable en sus diferentes categorías, mostrando la cantidad de frecuencia o casos, evidenciando cuánto del total corresponde cada categoría dentro de la variable.
     .row.bg2
       .row.justify-content-center
         .col-lg-10
-          p <strong>Ejemplo:</strong> Para el caso del restaurante se desea saber cómo es el comportamiento o flujo de comensales en el horario de almuerzo, para lo cual el gerente del restaurante recibe de su administrador la siguiente información
+          p <strong>Ejemplo:</strong> para el caso del restaurante se desea saber cómo es el comportamiento o flujo de comensales en el horario de almuerzo, para lo cual el gerente del restaurante recibe de su administrador la siguiente información
       .row.justify-content-center
         .col-lg-6
           .titulo-sexto.color-acento-botones.mt-3
             h5 Tabla 3
-            span Ejemplo de Toneladas de verduras vendidas por tipo de mercado  
+            span Ejemplo de toneladas de verduras vendidas por tipo de mercado  
           .tabla-a.color-primario.mb-5 
             table
               thead
@@ -463,7 +463,7 @@
               h5.mb-1 Herramientas estadísticas básicas de calidad
               p Utilización de herramientas estadísticas en las empresas. 
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="('https://alfredogutierrez.weebly.com/16-herramientas-estadisticas.html')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download    
     .row.mt-4
@@ -482,7 +482,7 @@
             img.mt-4(src="@/assets/curso/tema3/ico7.svg")
 
           .col-lg-8.mt-4
-            p Un indicador de gestión o KPI (Key Performance Indicator de su sigla traducida del inglés), representa la forma de medir si una función, proyecto, actividad, área funcional, unidad de negocio o la persona encargada, están alcanzando, logrando las metas y objetivos o resultados esperados.
+            p Un indicador de gestión o KPI (<i>Key Performance Indicator</i> de su sigla traducida del inglés), representa la forma de medir si una función, proyecto, actividad, área funcional, unidad de negocio o la persona encargada, están alcanzando, logrando las metas y objetivos o resultados esperados.
       .col-lg-6   
         img(src="@/assets/curso/tema3/img17.png")
     p.mt-4 Se deben utilizar indicadores de gestión en todos los niveles empresariales para evaluar el desempeño y lo establecido como metas en la planeación de la gestión empresarial. 
@@ -493,16 +493,16 @@
           li 
             .lista-ol--cuadro__vineta
               span 
-            h4 Indicadores Financieros:
+            h4 Indicadores financieros:
     p Estos se reconocen a partir de
     .row
       .col-lg-8
         TabsA.color-acento-botones.mb-5
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Razón Corriente")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Razón corriente")
             .row.justify-content-center
               .col-lg-11
-                h4 Razón Corriente
-                p mide la capacidad de liquidez que tiene la empresa para pagar las obligaciones financieras o pasivos de corto plazo con recursos de activos corrientes o de corto plazo.
+                h4 Razón corriente
+                p Mide la capacidad de liquidez que tiene la empresa para pagar las obligaciones financieras o pasivos de corto plazo con recursos de activos corrientes o de corto plazo.
                 .row.justify-content-center
                   .col-lg-7              
                     img.mt-5(src='@/assets/curso/tema3/f2.svg', alt='Texto que describa la imagen')
@@ -511,7 +511,7 @@
             .row.justify-content-center
               .col-lg-11
                 h4 Razón de endeudamiento
-                p mide el nivel de endeudamiento que tiene la empresa, es decir la cantidad de recursos que ha financiado con recursos monetarios ajenos.
+                p Mide el nivel de endeudamiento que tiene la empresa, es decir la cantidad de recursos que ha financiado con recursos monetarios ajenos.
                 .row.justify-content-center
                   .col-lg-10         
                     img.mt-5(src='@/assets/curso/tema3/f3.svg', alt='Texto que describa la imagen')
@@ -519,7 +519,7 @@
             .row.justify-content-center
               .col-lg-11
                 h4 Nivel de cobertura de intereses
-                p mide en que porcentaje la empresa genera utilidades operativas superiores para poder pagar los interese de sus obligaciones.
+                p Mide en que porcentaje la empresa genera utilidades operativas superiores para poder pagar los interese de sus obligaciones.
                 .row.justify-content-center
                   .col-lg-10         
                     img.mt-5(src='@/assets/curso/tema3/f4.svg', alt='Texto que describa la imagen')
@@ -528,7 +528,7 @@
             .row.justify-content-center
               .col-lg-11
                 h4 Nivel de rentabilidad neta
-                p mide la proporción de la utilidad respecto de las ventas netas de la empresa en un periodo
+                p Mide la proporción de la utilidad respecto de las ventas netas de la empresa en un perÍodo
                 .row
                   .col-lg-10
                     img.mt-5(src='@/assets/curso/tema3/f1.svg', alt='Texto que describa la imagen')
@@ -545,9 +545,9 @@
     .row.mt-4.borb
       .col-md-6.mb-5.mb-md-0
         LineaTiempoD.color-secundario
-          p(numero="1" titulo="Calidad del producto") indica la proporción de productos defectuosos sobre el total del producto obtenido medida en unidades, em peso, o como se de la producción, pero se expresa en porcentaje, a menor valor mayor calidad del producto.
-          p(numero="2" titulo="Utilización de la capacidad instalada") mide el nivel de los recursos utilizados para la producción
-          p(numero="3" titulo="Nivel de desperdicio") permite medir el nivel de eficiencia en el uso de los recursos.
+          p(numero="1" titulo="Calidad del producto") Indica la proporción de productos defectuosos sobre el total del producto obtenido medida en unidades, en peso, o como se de la producción, pero se expresa en porcentaje, a menor valor mayor calidad del producto.
+          p(numero="2" titulo="Utilización de la capacidad instalada") Mide el nivel de los recursos utilizados para la producción
+          p(numero="3" titulo="Nivel de desperdicio") Permite medir el nivel de eficiencia en el uso de los recursos.
     
       .col-lg-6
         img.mb-5(src="@/assets/curso/tema3/img19.png")
@@ -561,8 +561,8 @@
     .row.mt-4.borb
       .col-md-6.mb-5.mb-md-0
         LineaTiempoD.color-secundario
-          p(numero="1" titulo="Indicador de horas extra en el período") mide el nivel de trabajo adicional en un periodo con sobrecosto, a la jornada ordinaria.
-          p(numero="2" titulo="Nivel de Ausentismo") mide la proporción de horas no laboradas por los trabajadores, independientemente de su causal, refleja la ausencia de los trabajadores en general.
+          p(numero="1" titulo="Indicador de horas extra en el período") Mide el nivel de trabajo adicional en un periodo con sobrecosto, a la jornada ordinaria.
+          p(numero="2" titulo="Nivel de ausentismo") Mide la proporción de horas no laboradas por los trabajadores, independientemente de su causal, refleja la ausencia de los trabajadores en general.
     
       .col-lg-6
         img.mb-5(src="@/assets/curso/tema3/img20.png")
@@ -576,8 +576,8 @@
     .row.mt-4.borb
       .col-md-6.mb-5.mb-md-0
         LineaTiempoD.color-secundario
-          p(numero="1" titulo="Clientes nuevos") mide el desempeño de cada vendedor o del grupo de vendedores, en la consecución de clientes nuevos que compren efectivamente.
-          p(numero="2" titulo="Participación en el mercado") mide qué tanto de las ventas de la industria o sector donde opera la empresa, la empresa contribuye.
+          p(numero="1" titulo="Clientes nuevos") Mide el desempeño de cada vendedor o del grupo de vendedores, en la consecución de clientes nuevos que compren efectivamente.
+          p(numero="2" titulo="Participación en el mercado") Mide qué tanto de las ventas de la industria o sector donde opera la empresa, la empresa contribuye.
     
       .col-lg-6
         img.mb-5(src="@/assets/curso/tema3/img21.png")

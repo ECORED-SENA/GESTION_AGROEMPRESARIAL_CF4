@@ -23,12 +23,12 @@
             div(x="96%" y="60%" tooltip="tooltip de max 35 caracteres")
               .row.justify-content-center.colort6
                 .col-lg-10
-                  h5.mt-4 Recursos Intangibles
-                  p Son los recursos Intangibles que posee la Empresa y que atesoran los valores de la actividad a la que se dedica la empresa, entre los que se encuentran:
+                  h5.mt-4 Recursos intangibles
+                  p Son los recursos Intangibles que posee la empresa y que atesoran los valores de la actividad a la que se dedica la empresa, entre los que se encuentran:
                   ul.lista-ul
                     li 
                       i.fas.fa-angle-right.colorvi.mb-0
-                      | El software
+                      p El <i>software</i>
                     li 
                       i.fas.fa-angle-right.colorvi.mb-0
                       |  El sistema de Ventas
@@ -40,7 +40,7 @@
                       | Las patentes
                     li 
                       i.fas.fa-angle-right.colorvi.mb-0
-                      | Los secretos del saber hacer- formulas, etc. 
+                      | Los secretos del saber hacer- fórmulas, etc. 
             div(x="70%" y="11%" tooltip="tooltip de max 35 caracteres")
               .row.justify-content-center.colort6
                 .col-lg-10
@@ -51,11 +51,11 @@
                   ul.lista-ul
                     li 
                       i.fas.fa-angle-right.colorvi.mb-0
-                      p    <strong>Bienes muebles:</strong> Equipo de cómputo y comunicaciones, equipo de oficina (calculadoras, perforadoras, cosedoras, etc.), muebles y enseres, flota de transportes (vehículos, camiones, tractores, etc.), etc.
+                      p    <strong>Bienes muebles:</strong> equipo de cómputo y comunicaciones, equipo de oficina (calculadoras, perforadoras, cosedoras, etc.), muebles y enseres, flota de transportes (vehículos, camiones, tractores, etc.), etc.
 
                     li 
                       i.fas.fa-angle-right.colorvi.mb-0
-                      p     <strong>Bienes inmuebles:</strong> Lotes, edificios, oficinas, casas, minas, etc.
+                      p     <strong>Bienes inmuebles:</strong> lotes, edificios, oficinas, casas, minas, etc.
             div(x="28%" y="11%" tooltip="tooltip de max 35 caracteres")
               .row.justify-content-center.colort6
                 .col-lg-10
@@ -68,12 +68,12 @@
                   ul.lista-ul
                     li 
                       i.fas.fa-angle-right.colorvi.mb-0
-                      p    <strong>Propios:</strong>     Caja, bancos, Inversiones temporales que tenga la empresa (acciones, CDTs, bonos, etc), cuentas por cobrar.
+                      p    <strong>Propios:</strong>     caja, bancos, Inversiones temporales que tenga la empresa (acciones, CDTs, bonos, etc), cuentas por cobrar.
 
 
                     li 
                       i.fas.fa-angle-right.colorvi.mb-0
-                      p     <strong>Ajenos:</strong>     Créditos (bancarios o extra-bancarios), cuentas por pagar, inversiones temporales (acciones comunes o preferenciales, bonos).
+                      p     <strong>Ajenos:</strong>     créditos (bancarios o extra-bancarios), cuentas por pagar, inversiones temporales (acciones comunes o preferenciales, bonos).
             div(x="5%" y="60%" tooltip="tooltip de max 35 caracteres")
               .row.justify-content-center.colort6
                 .col-lg-10

@@ -5,11 +5,11 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 6
-      h1 Proceso Administrativo
+      h1 Proceso administrativo
     .row
       .col-lg-6
         .row.p-5.colort5
-          p La administración de las empresas agropecuarias exige el desarrollo de las cuatro fases del proceso administrativo de cualquier empresa convencional: Planeación, Organización, Dirección y Control, sobre el conjunto de recursos administrativos que dispone para su operación: (físicos, talento humano, financieros, técnicos tecnológicos) Figura: Proceso Administrativo muestra cual es el aporte en general de estas funciones a la empresa, así como muestra, la correlación o interdependencia entre ellas.
+          p La administración de las empresas agropecuarias exige el desarrollo de las cuatro fases del proceso administrativo de cualquier empresa convencional: planeación, organización, dirección y control, sobre el conjunto de recursos administrativos que dispone para su operación: (físicos, talento humano, financieros, técnicos tecnológicos) Figura: proceso administrativo muestra cual es el aporte en general de estas funciones a la empresa, así como muestra, la correlación o interdependencia entre ellas.
       .col-lg-6
         img(src='@/assets/curso/tema6/img1.png', alt='Texto que describa la imagen')
     separador
@@ -31,7 +31,7 @@
               h5.mb-1 ¿Qué es un plan de acción?¿cómo se elabora? ejemplos.
               p Para ampliar los aspectos referentes a los planes de acción se recomienda consultar  el siguiente recurso. 
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="('https://blog.hubspot.es/sales/plan-de-accion-empresa')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download  
     .row.justify-content-center
@@ -64,7 +64,7 @@
               a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
-    h4 Recursos de Inventario
+    h4 Recursos de inventario
     p Entre los recursos físicos de activos que posee la empresa para su operación se encuentran los inventarios, es decir existencias de recursos para transformación, venta, uso o cualquier otro aspecto con fines operativos, que se encuentran almacenados en bodega, a espera de ser utilizados, los cuales regularmente se ordenan de la siguiente manera según su clase:
     .tarjeta.tarjeta--gris.p-4.mb-5
       LineaTiempoC.color-acento-contenido(text-small)
@@ -74,7 +74,7 @@
               .col-md-6.mb-4.mb-md-0
                 h5 Inventario de activos
 
-                p con el conjunto de recursos de capital con que cuenta la organización para su operación y el trabajo de los individuos. Se clasifican en bienes muebles e inmuebles, Ejemplo: computadores muebles y escritorios, bodegas, lotes, fincas, etc.. 
+                p Con el conjunto de recursos de capital con que cuenta la organización para su operación y el trabajo de los individuos. Se clasifican en bienes muebles e inmuebles, ejemplo: computadores muebles y escritorios, bodegas, lotes, fincas, etc.. 
             
               .col-md-6
                 figure
@@ -84,7 +84,7 @@
             .row
               .col-md-6.mb-4.mb-md-0
                 h5 Inventario de productos terminados
-                p son aquellos productos que ya tienen completa su agregación de valor cumplieron su proceso de producción y están esperando para ser distribuidos.
+                p Son aquellos productos que ya tienen completa su agregación de valor cumplieron su proceso de producción y están esperando para ser distribuidos.
               .col-md-6
                 figure
                   img(src='@/assets/curso/tema6/2.png', alt='Texto que describa la imagen')
@@ -94,7 +94,7 @@
               .col-md-6.mb-4.mb-md-0
                 h5 Inventarios de materias primas
 
-                p recursos esenciales para la elaboración o fabricación de bienes o productos, se clasifican en materias primas, insumos y suministros.
+                p Recursos esenciales para la elaboración o fabricación de bienes o productos, se clasifican en materias primas, insumos y suministros.
               .col-md-6
                 figure
                   img(src='@/assets/curso/tema6/3.png', alt='Texto que describa la imagen')
@@ -103,7 +103,7 @@
             .row
               .col-md-6.mb-4.mb-md-0
                 h5 Inventarios de productos en proceso
-                p son aquellas materias primas, que ya han sufrido algún proceso de agregación de valor o transformación, pero que aún no han sido terminados totalmente. Ejemplo: producción de huevos que no han sido preparados, pesados, y embalados. Leche que se encuentra pasteurizada, pero no empacada está en silos.
+                p Son aquellas materias primas, que ya han sufrido algún proceso de agregación de valor o transformación, pero que aún no han sido terminados totalmente. Ejemplo: producción de huevos que no han sido preparados, pesados, y embalados. Leche que se encuentra pasteurizada, pero no empacada está en silos.
               .col-md-6
                 figure
                   img(src='@/assets/curso/tema6/4.png', alt='Texto que describa la imagen')
@@ -112,7 +112,7 @@
             .row
               .col-md-6.mb-4.mb-md-0
                 h5 Inventario de obsoletos
-                p es el inventario que posee la empresa de productos que ya están obsoletos, deteriorados, que cumplieron su vida útil o caducaron, dañados o estropeados y no pueden ser comercializados ni distribuidos.
+                p Es el inventario que posee la empresa de productos que ya están obsoletos, deteriorados, que cumplieron su vida útil o caducaron, dañados o estropeados y no pueden ser comercializados ni distribuidos.
               .col-md-6
                 figure
                   img(src='@/assets/curso/tema6/5.png', alt='Texto que describa la imagen')
@@ -122,7 +122,7 @@
               .col-md-6.mb-4.mb-md-0
                 h5 Inventario de repuestos 
 
-                p son aquellos recursos que posee la empresa para efectos de suplir fallas en máquinas o partes intercambiables, deben permanecer disponibles cuando sean necesitados por el departamento de producción y no interrumpir el proceso de producción. Ejemplo: llantas para los camiones, una cuchilla para un tractor o guadaña, etc.
+                p Son aquellos recursos que posee la empresa para efectos de suplir fallas en máquinas o partes intercambiables, deben permanecer disponibles cuando sean necesitados por el departamento de producción y no interrumpir el proceso de producción. Ejemplo: llantas para los camiones, una cuchilla para un tractor o guadaña, etc.
               .col-md-6
                 figure
                   img(src='@/assets/curso/tema6/6.png', alt='Texto que describa la imagen')
@@ -134,9 +134,9 @@
         p La dirección como función del proceso administrativo consiste en dinamizar la empresa y poner en operación y ejecución la planeación, es decir el conjunto de iniciativas estratégicas para lograr los objetivos previstos. Una vez que se completa el proceso de planeación y de organización, hay que cumplir con la disposición de los recursos para el desarrollo de las actividades, esto presupone que hay que contratar talento humano si hace falta, comprar recursos, arrendar o reorganizar tierras lotes, bodegas, como ajustar las asignaciones de actividades de manera formal de darse a lugar. La ejecución requiere de funciones como la comunicación para la coordinación, el liderazgo para hacer que las personas desarrollen sus labores con motivación y diligencia.
       .col-lg-6
         img(src='@/assets/curso/tema6/7.png', alt='Texto que describa la imagen')
-    figure.mb-5
+    figure.mb-5.mt-4
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/7URCz2zjphk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
     #t_6_4.titulo-segundo.color-acento-contenido
       h2 6.4   Control

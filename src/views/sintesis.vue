@@ -9,7 +9,7 @@
     p.mb-5 La siguiente figura expresa el conjunto de gestiones o diligencias que una empresa agropecuaria debe desarrollar para su administración, siguiendo el proceso administrativo de planear, organizar, dirigir y controlar.
     .titulo-sexto.color-acento-botones.mt-3
       h5 Figura 16
-      span Iniciativas Estratégicas y de mercado en las empresas agropecuarias
+      span Iniciativas estratégicas y de mercado en las empresas agropecuarias
     .row.justify-content-center
       .col-lg-10.mb-5
         figure

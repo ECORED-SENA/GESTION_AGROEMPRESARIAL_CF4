@@ -5,17 +5,17 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Diagnóstico organizacional
+      h1 Diagnóstico organizacional y técnico
     .row
       .col-lg-7
         .row.colort4.p-3
           p Un diagnóstico es el resultado de una investigación que realiza la empresa para determinar el estado actual de condiciones en que se opera en su mercado, región o país. Se puede decir que el diagnóstico es la interpretación real de la organización o el marco de referencia de operación, que le sirve para tomar decisiones frente propósitos empresariales, objetivos o metas proyectadas.
         .row
           .col-lg-11.mt-4
-            p El diagnostico empresarial para el empresario contemporáneo es una herramienta de gestión que permite identificar las debilidades y fortalezas para enfrentar un mercado muy dinámico.
+            p El diagnóstico empresarial para el empresario contemporáneo es una herramienta de gestión que permite identificar las debilidades y fortalezas para enfrentar un mercado muy dinámico.
       .col-lg-5
         img(src='@/assets/curso/tema4/img1.svg', alt='Texto que describa la imagen')
-    p.mt-4 El proceso de análisis permite la evaluación de los productos, servicios, estrategia de ventas, el marketing y la publicidad empleados, entre otras variables operativas. Todo esto te permitirá descubrir cuáles son los puntos fuertes y débiles para actuar en consecuencia.
+    p.mt-4 El proceso de análisis permite la evaluación de los productos, servicios, estrategia de ventas, el <i>marketing</i> y la publicidad empleados, entre otras variables operativas. Todo esto te permitirá descubrir cuáles son los puntos fuertes y débiles para actuar en consecuencia.
     separador
     #t_4_1.titulo-segundo.color-acento-contenido
       h2 4.1   Alcance del diagnóstico empresarial administrativo
@@ -47,7 +47,7 @@
                 .p-4
                   h5 Diagnóstico organizacional integral
 
-                  p Este alcance de un diagnóstico abarca un análisis de todos los procesos y funciones que desarrolla la empresa, por lo cual incluye variables y aspectos de los anteriores diagnósticos, lo que comprende los aspectos en que la empresa está inmersa para su operación, esto implica un análisis de factores externos e internos determinado su posición relativa de competitividad, es decir si identifica que aspectos la están conduciendo al éxito y cuales se han descuidado en su capacidad productiva y de crecimiento. Este tipo de diagnóstico regularmente tiene un enfoque eminentemente estratégico de largo plazo por su y efecto para el futuro (Portugal).
+                  p Este alcance de un diagnóstico abarca un análisis de todos los procesos y funciones que desarrolla la empresa, por lo cual incluye variables y aspectos de los anteriores diagnósticos, lo que comprende los aspectos en que la empresa está inmersa para su operación, esto implica un análisis de factores externos e internos determinado su posición relativa de competitividad, es decir si identifica que aspectos la están conduciendo al éxito y cuales se han descuidado en su capacidad productiva y de crecimiento. Este tipo de diagnóstico regularmente tiene un enfoque eminentemente estratégico de largo plazo por su efecto para el futuro (Portugal).
       separador
       #t_4_2.titulo-segundo.color-acento-contenido
         h2 4.2   Factores a diagnosticar
@@ -55,7 +55,7 @@
         .col-lg-6
           p La operación empresarial se da en un contexto de múltiples variables y aspectos que la afectan permanentemente, el cual en los años recientes se ha complejizado por su alta dinámica, pluralidad de variables, nuevos escenarios y actores, a efectos de la ruptura por la globalización e internacionalización para la actuación empresarial. 
           .row.p-3.colort4
-            p En este sentido, las empresas están llamadas a desarrollar capacidades competitivas mucho más exigentes y versátiles que les permita la sobrevivencia, donde si lo que se quiere es ser distinguido o llevar la delantera, deberá hacer muchos más esfuerzos a los que comúnmente realiza, es decir desarrollar una ventaja competitiva creciente y sostenida, esto demanda diagnóstico que pretende evaluar o anticipar las alternativas desde el presente (Rodriguez, 2012).
+            p En este sentido, las empresas están llamadas a desarrollar capacidades competitivas mucho más exigentes y versátiles que les permita la sobrevivencia, donde si lo que se quiere es ser distinguido o llevar la delantera, deberá hacer muchos más esfuerzos a los que comúnmente realiza, es decir desarrollar una ventaja competitiva creciente y sostenida, esto demanda diagnóstico que pretende evaluar o anticipar las alternativas desde el presente (Rodríguez, 2012).
           p Es por estas razones que realizar un diagnóstico empresarial con fines del fortalecimiento y competitividad requiere de la clasificación de variables que agrupadas conforman lo que se denomina factores y aspectos a evaluar. 
         .col-lg-6
           img(src='@/assets/curso/tema4/img2.png' alt='AvatarTop')
@@ -66,6 +66,7 @@
               .lista-ol--cuadro__vineta
                 span 
               h4 Factores y variables endógenos
+      p Lo endógeno corresponde a lo interno, es decir al conjunto de variables o aspectos a evaluar donde su comportamiento depende de las actuaciones de la empresa, por tanto, son absolutamente controlables, por ende, se pueden identificar fortalezas como las variables empresariales que impactan positivamente la empresa y facilitan su sostenibilidad y crecimiento; o las debilidades que se tienen sobre dichas variables lo que hace que se pierda competitividad afectando la eficiencia y efectividad empresarial.
       .row.justify-content-center
         .col-lg-8
           ImagenInfografica.color-acento-botones.mb-2
@@ -77,12 +78,12 @@
               p <strong>Tecnología disponible:</strong> como es la posición frente a esos cambios, se cuenta con recursos actualizados, se cuenta con software integrado para crecer, se evalúa el plan de renovación, sustitución y mantenimientos
 
             .tarjeta.color-acento-botones.p-3(x="8%" y="50%" numero="+")
-              p <strong>Posición Financiera:</strong> Se estudiarán los estados financieros: Balance general, estafo de resultados, el flujo de caja, cartera y su ciclo, la concentración de la misma, cartera de proveedores, es el endeudamiento a corto o largo plazo, la calidad de la deuda, entre otros que considere cada empresa.
+              p <strong>Posición financiera:</strong> se estudiarán los estados financieros: balance general, estafó de resultados, el flujo de caja, cartera y su ciclo, la concentración de la misma, cartera de proveedores, es el endeudamiento a corto o largo plazo, la calidad de la deuda, entre otros que considere cada empresa.
 
             .tarjeta.color-acento-botones.p-3(x="20%" y="80%" numero="+")
-              p <strong>Recursos humanos y Organización:</strong> se analizan variables como la composición de la planta de personal, su estructura organización, tipos de contratación, percepción del clima laboral, nivel de salarios.
+              p <strong>Recursos humanos y organización:</strong> se analizan variables como la composición de la planta de personal, su estructura organización, tipos de contratación, percepción del clima laboral, nivel de salarios.
             .tarjeta.color-acento-botones.p-3(x="50%" y="92%" numero="+")
-              p <strong>Marketing y comunicación:</strong>  Se analizarán todos aquellos factores referentes al marketing mix y a la comunicación tanto la realizada por los medios tradicionales, como la comunicación online a través de banners, redes sociales, blogs, portales, entre otros.
+              p <strong><i>Marketing</i> y comunicación:</strong>  Se analizarán todos aquellos factores referentes al <i>marketing</i> mix y a la comunicación tanto la realizada por los medios tradicionales, como la comunicación online a través de banners, redes sociales, blogs, portales, entre otros.
             .tarjeta.color-acento-botones.p-3(x="80%" y="80%" numero="+")
               p <strong>Procesos empresariales:</strong>   Se evaluarán los ámbitos de gestión, métodos, procedimientos, los sistemas de información, los procesos en línea y automatización, si son eficaces y suficientes, junto con los factores referentes a la producción, la cadena de valor, definiendo o revisando la necesidad de capacidades potencial y real, incluyendo logística e innovación.
             .tarjeta.color-acento-botones.p-3(x="92%" y="50%" numero="+")
@@ -103,7 +104,7 @@
           p Lo exógeno corresponde a lo externo, es decir al conjunto de variables o aspectos a evaluar donde su comportamiento no depende de las actuaciones de la empresa, por tanto, no son controlables por parte de la empresa.
           .row.p-3.colort4
             p Las múltiples variables se agrupan según su naturaleza en factores, determinando un escenario de macroentorno y microentorno, permitiendo identificar cambios del escenario empresarial o del sector o industria y de donde se pueden identificar posibles oportunidades de crecimiento o amenazas que pueden representar dichas variables no controlables.
-          p.mt-2 El macroentorno es la parte entorno de la empresa más lejana, con variables que desde una perspectiva general afecta a las empresas, es decir, el macroentorno es igual para todas las empresas de un país o región, del mismo sector económico en que pueden estar operando: Legislaciones, aspectos tecnológicos, económicos, etc. El microentorno, es la externalidad próxima a la empresa, como los proveedores, clientes y la competencia.
+          p.mt-2 El macroentorno es la parte entorno de la empresa más lejana, con variables que desde una perspectiva general afecta a las empresas, es decir, el macroentorno es igual para todas las empresas de un país o región, del mismo sector económico en que pueden estar operando: legislaciones, aspectos tecnológicos, económicos, etc. El microentorno, es la externalidad próxima a la empresa, como los proveedores, clientes y la competencia.
         .col-lg-6
           img(src='@/assets/curso/tema4/img4.png' alt='AvatarTop')
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
@@ -114,7 +115,7 @@
       .row.justify-content-center(titulo="Económicos")
         .col-md-12.mb-4.mb-md-0
           p La recesión o reactivación económica, inflación, la tasa de cambio, el porcentaje de desempleo, las tasas de interés, el ingreso per cápita, y demás variable que considere la empresa con que esté relacionada.
-      .row.justify-content-center(titulo="Sociales y Demográficos")
+      .row.justify-content-center(titulo="Sociales y demográficos")
         .col-md-12.mb-4.mb-md-0
           p Composición social por edades, por género, por ubicación rural ó urbana, tasa de natalidad, tasa de mortalidad, esperanza de vida, nivel educativo, estratos socioeconómicos, hábitos sociales y culturales, religión, etnias, etc.
       .row.justify-content-center(titulo="Tecnológicos")
@@ -122,7 +123,7 @@
           p Formación para su manejo, nuevos avances, comercialización y representación de esas nuevas tecnologías inversión en I+D en el sector o actividad de la empresa, etc.
       .row.justify-content-center(titulo="Clientes")
         .col-md-12.mb-4.mb-md-0
-          p En esté factor se evalúa cómo se concentran, si están agremiados, como son las tendencias de consumo, si existe tasa de rotación de los clientes, el poder de negociación que tienen según su clasificación.
+          p En este factor se evalúa cómo se concentran, si están agremiados, como son las tendencias de consumo, si existe tasa de rotación de los clientes, el poder de negociación que tienen según su clasificación.
       .row.justify-content-center(titulo="Proveedores")
         .col-md-12.mb-4.mb-md-0
           p Se busca identificar su concentración y ubicación, están agremiados, existe flexibilidad de precios, existen materias primas, insumos suministros sustitutos.
@@ -153,7 +154,7 @@
         img(src='@/assets/curso/tema4/img6.svg' alt='AvatarTop')
       .col-lg-6
         img(src='@/assets/curso/tema4/img7.svg' alt='AvatarTop')
-    p.mt-4 La técnica establece que una vez ya clasificada la información y determinado su nivel de impacto positivo o negativo se procede a armar la Matriz DOFA, propiamente dicha, para tomar la decisiones o acciones haciendo los cruces pertinentes, esto implica focalizar en unos pocos aspectos críticos de los factores por cada tipo, los de mayor relevancia o impacto a la empresa, por que a partir de allí se planteara la toma de decisiones, fijación de objetivos.
+    p.mt-4 La técnica establece que una vez ya clasificada la información y determinado su nivel de impacto positivo o negativo se procede a armar la Matriz DOFA, propiamente dicha, para tomar la decisiones o acciones haciendo los cruces pertinentes, esto implica focalizar en unos pocos aspectos críticos de los factores por cada tipo, los de mayor relevancia o impacto a la empresa, por que a partir de allí se planteará la toma de decisiones, fijación de objetivos.
     .row.justify-content-center
       .col-lg-6
         .titulo-sexto.color-acento-botones.mt-3
