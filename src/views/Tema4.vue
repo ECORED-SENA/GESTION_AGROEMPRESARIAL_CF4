@@ -78,7 +78,7 @@
               p <strong>Tecnología disponible:</strong> como es la posición frente a esos cambios, se cuenta con recursos actualizados, se cuenta con software integrado para crecer, se evalúa el plan de renovación, sustitución y mantenimientos
 
             .tarjeta.color-acento-botones.p-3(x="8%" y="50%" numero="+")
-              p <strong>Posición financiera:</strong> se estudiarán los estados financieros: balance general, estafó de resultados, el flujo de caja, cartera y su ciclo, la concentración de la misma, cartera de proveedores, es el endeudamiento a corto o largo plazo, la calidad de la deuda, entre otros que considere cada empresa.
+              p <strong>Posición financiera:</strong> se estudiarán los estados financieros: balance general, estado de resultados, el flujo de caja, cartera y su ciclo, la concentración de la misma, cartera de proveedores, es el endeudamiento a corto o largo plazo, la calidad de la deuda, entre otros que considere cada empresa.
 
             .tarjeta.color-acento-botones.p-3(x="20%" y="80%" numero="+")
               p <strong>Recursos humanos y organización:</strong> se analizan variables como la composición de la planta de personal, su estructura organización, tipos de contratación, percepción del clima laboral, nivel de salarios.

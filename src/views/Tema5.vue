@@ -31,7 +31,7 @@
                       p El <i>software</i>
                     li 
                       i.fas.fa-angle-right.colorvi.mb-0
-                      |  El sistema de Ventas
+                      |  El sistema de ventas
                     li 
                       i.fas.fa-angle-right.colorvi.mb-0
                       | El Sistema de producción

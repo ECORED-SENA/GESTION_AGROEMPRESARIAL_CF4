@@ -152,9 +152,9 @@
       .col-lg-3
       .col-lg-5
         .titulo-sexto.color-acento-botones
-          h5 figura 3
+          h5 Figura 3
           span Ejemplo de Aplicación Matriz BCG  
-        img(src='@/assets/curso/tema3/img5.svg' alt='AvatarTop')
+        img(src='@/assets/curso/tema3/img5.png' alt='AvatarTop')
    
       .col-lg-4
     p.mt-5.text-center En la figura anterior se pueden identificar 3 productos del portafolio de una empresa cada uno ubicado en un cuadrante diferente:
@@ -545,9 +545,24 @@
     .row.mt-4.borb
       .col-md-6.mb-5.mb-md-0
         LineaTiempoD.color-secundario
-          p(numero="1" titulo="Calidad del producto") Indica la proporción de productos defectuosos sobre el total del producto obtenido medida en unidades, en peso, o como se de la producción, pero se expresa en porcentaje, a menor valor mayor calidad del producto.
-          p(numero="2" titulo="Utilización de la capacidad instalada") Mide el nivel de los recursos utilizados para la producción
-          p(numero="3" titulo="Nivel de desperdicio") Permite medir el nivel de eficiencia en el uso de los recursos.
+          .row.justify-content-center(numero="1" titulo="Calidad del producto")
+            .col-md-12.mb-4.mb-md-0
+              p Indica la proporción de productos defectuosos sobre el total del producto obtenido medida en unidades, en peso, o como se de la producción, pero se expresa en porcentaje, a menor valor mayor calidad del producto.
+              .row.justify-content-center
+                .col-lg-10
+                  img(src='@/assets/curso/1.svg', alt='Texto que describa la imagen')
+          .row.justify-content-center(numero="2" titulo="Utilización de la capacidad instalada")
+            .col-md-12.mb-4.mb-md-0
+              p Mide el nivel de los recursos utilizados para la producción
+              .row.justify-content-center
+                .col-lg-10
+                  img(src='@/assets/curso/2.svg', alt='Texto que describa la imagen')
+          .row.justify-content-center(numero="3" titulo="Nivel de desperdicio")
+            .col-md-12.mb-4.mb-md-0
+              p Permite medir el nivel de eficiencia en el uso de los recursos.
+              .row.justify-content-center
+                .col-lg-10
+                  img(src='@/assets/curso/3.svg', alt='Texto que describa la imagen')
     
       .col-lg-6
         img.mb-5(src="@/assets/curso/tema3/img19.png")
@@ -561,8 +576,18 @@
     .row.mt-4.borb
       .col-md-6.mb-5.mb-md-0
         LineaTiempoD.color-secundario
-          p(numero="1" titulo="Indicador de horas extra en el período") Mide el nivel de trabajo adicional en un periodo con sobrecosto, a la jornada ordinaria.
-          p(numero="2" titulo="Nivel de ausentismo") Mide la proporción de horas no laboradas por los trabajadores, independientemente de su causal, refleja la ausencia de los trabajadores en general.
+          .row.justify-content-center(numero="1" titulo="Indicador de horas extra en el período")
+            .col-md-12.mb-4.mb-md-0
+              p Mide el nivel de trabajo adicional en un periodo con sobrecosto, a la jornada ordinaria.
+              .row.justify-content-center
+                .col-lg-10
+                  img(src='@/assets/curso/4.svg', alt='Texto que describa la imagen')
+          .row.justify-content-center(numero="1" titulo="Nivel de ausentismo")
+            .col-md-12.mb-4.mb-md-0
+              p Mide la proporción de horas no laboradas por los trabajadores, independientemente de su causal, refleja la ausencia de los trabajadores en general.
+              .row.justify-content-center
+                .col-lg-10
+                  img(src='@/assets/curso/5.svg', alt='Texto que describa la imagen')
     
       .col-lg-6
         img.mb-5(src="@/assets/curso/tema3/img20.png")
@@ -576,8 +601,18 @@
     .row.mt-4.borb
       .col-md-6.mb-5.mb-md-0
         LineaTiempoD.color-secundario
-          p(numero="1" titulo="Clientes nuevos") Mide el desempeño de cada vendedor o del grupo de vendedores, en la consecución de clientes nuevos que compren efectivamente.
-          p(numero="2" titulo="Participación en el mercado") Mide qué tanto de las ventas de la industria o sector donde opera la empresa, la empresa contribuye.
+          .row.justify-content-center(numero="1" titulo="Clientes nuevos")
+            .col-md-12.mb-4.mb-md-0
+              p Mide el desempeño de cada vendedor o del grupo de vendedores, en la consecución de clientes nuevos que compren efectivamente.
+              .row.justify-content-center
+                .col-lg-10
+                  img(src='@/assets/curso/6.svg', alt='Texto que describa la imagen')
+          .row.justify-content-center(numero="2" titulo="Participación en el mercado")
+            .col-md-12.mb-4.mb-md-0
+              p Mide qué tanto de las ventas de la industria o sector donde opera la empresa, la empresa contribuye.
+              .row.justify-content-center
+                .col-lg-10
+                  img(src='@/assets/curso/7.svg', alt='Texto que describa la imagen')
     
       .col-lg-6
         img.mb-5(src="@/assets/curso/tema3/img21.png")

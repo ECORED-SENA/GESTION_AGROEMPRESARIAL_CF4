@@ -13,7 +13,7 @@
         ImagenInfografica.color-acento-botones.mb-5.mt-4
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema2/img1.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema2/img1.png', alt='Texto que describa la imagen')
 
           .tarjeta.color-acento-botones.p-3(x="20%" y="13%" numero="+")
             p <strong>Capital:</strong> como fuerza o factor que impulsa los negocios, refiere a la capacidad de atraer nuevas inversiones en actividades que son rentables, que generan riesgos calculados, y que presentan escenarios confiables de condiciones. Los capitales se aplican en las empresas para la implementación de activos para mejora de sus capacidades instaladas, ampliación de activos o medios productivos como maquinarias, terrenos, bodegas, etc. Estos capitales disponibles en el entorno local o internacional buscan escenarios de actividades que presenten estas condiciones favorables, y en Colombia uno de los sectores más prominentes para nuevos capitales, son los relacionados a los mercados verdes, agropecuarios, por lo cual hay que buscar la manera de seguir atrayendo dichos capitales y el desarrollo de empresas del sector..
