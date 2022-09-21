@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade")
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
@@ -11,7 +11,7 @@
         .row.colort1.p-3
           p.mb-0 Una organización empresarial es un conjunto de personas que persiguen un fin u objetivo común, donde para lograrlo disponen de una serie de recursos de diversa índole. Las organizaciones para que funcionen deben definir niveles de roles y responsabilidades, por lo cual surge la división del trabajo, ya que todos no pueden hacer de todo; su cumplimiento denota un sentido de normas a todos sus integrantes para lograr objetivos o metas aportando a su funcionamiento y futuro como organización empresarial.
         p.mt-2 Este  concepto de empresa, denota un conjunto de acciones arduas, de diversa dificultad, las cuales son de ejercicio continuo y ordinario, que las personas desarrollan para lograr un fin u objetivo, a partir de este concepto, la administración de empresas homologa los términos empresa y organización de manera que es indistinto referirse a empresa u organización, pues denotan los mismos propósitos básicos, un conjunto de personas que desarrollan actividades con el fin de lograr objetivos comunes. 
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         img.mt-2(src='@/assets/curso/tema1/img1.svg', alt='Texto que describa la imagen')
     separador
     #t_1_1.titulo-segundo.color-acento-contenido
@@ -31,12 +31,12 @@
           li 
             i.fas.fa-angle-right.colorvi
             p <strong>Organizaciones mixtas:</strong>   donde los recursos provienen de la asociación de particulares y del gobierno nacional o local.
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         img(src='@/assets/curso/tema1/img2.png', alt='Texto que describa la imagen')
     .row.mt-5
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         img(src='@/assets/curso/tema1/img3.png', alt='Texto que describa la imagen')
-      .col-lg-6
+      .col-lg-6.mt-2
         h4 Según la destinación de los recursos y utilidad
         ul.lista-ul
           li 
@@ -49,7 +49,7 @@
       .col-lg-6
         h4 Según su tamaño
         p En Colombia a partir del decreto 957 de 2019, las organizaciones empresariales se clasifican por su tamaño en conformidad al nivel de ingresos obtenidos medidos en Unidades de Valor Tributario- UVT, según la actividad económica a la que se dedican. El valor en pesos de la UVT., cambia cada año según lo disponga el gobierno nacional a través de la Dirección de Impuestos y Aduanas Nacionales DIAN, donde para el año 2022 su valor nominal está en $38.004 = 1 UVT.
-      .col-lg-6    
+      .col-lg-6(data-aos="fade-left")    
         img(src='@/assets/curso/tema1/img4.png', alt='Texto que describa la imagen')
     p.mt-4 En la siguiente tabla se describe el tamaño de las empresas según su nivel de ingresos en UVT.
     .row.justify-content-center.mt-4
@@ -57,7 +57,7 @@
         .titulo-sexto.color-acento-botones
           h5 Tabla 1
           span Tamaño de las empresas según nivel de ingresos
-        .tabla-a.color-primario.mb-5 
+        .tabla-a.color-primario.mb-5(data-aos="fade-down") 
           table
             thead
               tr
@@ -91,7 +91,7 @@
         .titulo-sexto.color-acento-botones
           h5 Tabla 2
           span Tamaño de las empresas según nivel de ingresos
-        .tabla-a.color-primario.mb-5 
+        .tabla-a.color-primario.mb-5(data-aos="fade-down") 
           table
             thead
               tr
@@ -138,13 +138,13 @@
           li 
             i.fas.fa-angle-right.colorvi            
             p.mb-0 Sociedades de régimen especial.      
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")    
         img(src='@/assets/curso/tema1/img5.png', alt='Texto que describa la imagen')
     .row.mt-5
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         img(src='@/assets/curso/tema1/img6.png', alt='Texto que describa la imagen')
 
-      .col-lg-6
+      .col-lg-6.mt-2
         h4 Según el nivel de aportes y participación
         p Refiere a las empresas que se configuran a partir de la colocación de capitales o desde la participación de personas, entre las cuales se tiene:
         ul.lista-ul
@@ -174,15 +174,15 @@
             i.fas.fa-angle-right.colorvi
             p <strong>Servicios:</strong>     son las empresas cuya actividad consiste en proveer funciones intangibles, tal como es el caso de la educación, el transporte, la asistencia médica, etc., donde quizá para prestar el servicio requieren de recursos, pero estos no son parte del entregable al cliente.
             
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")    
         img(src='@/assets/curso/tema1/img7.png', alt='Texto que describa la imagen')
     p.mt-5 También se presenta el sector productivo y según el ámbito territorial de operación, los cuales se describen de manera detallada en
-    .col-lg-4
-      .row.colort2
-        .col-lg-10
+    .col-lg-4.mt-5
+      .row.colort2.align-items-center
+        .col-lg-9
           h3.text-white.mt-2 Según el sector productivo
-        .col-lg-2
-          img(src='@/assets/curso/tema1/ico1.svg', alt='Texto que describa la imagen')
+        .col-lg-3
+          img.wix(src='@/assets/curso/tema1/ico1.svg', alt='Texto que describa la imagen')
     p.mt-4 En Colombia la economía se estructura a partir del tipo de procesos de producción que desarrollan las organizaciones empresariales las cuales, desde un enfoque convencional, se dividen en tres sectores:
     TabsA.color-acento-botones.mb-5
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
@@ -203,7 +203,7 @@
             p Se compone de todas las empresas donde sus actividades están dedicadas a la elaboración o producción industrial, la transformación industrial de materias primas, de bienes de otras empresas, que también se utilizan como base para la fabricación y elaboración de otros o nuevos productos.
           .col-lg-5
             img(src='@/assets/curso/tema1/img9.png', alt='Texto que describa la imagen')
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Sector secundario")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Sector terciario")
         .row
           .col-lg-7
             h4 Sector terciario
@@ -216,13 +216,13 @@
         .titulo-sexto.color-acento-botones
           h5 Figura 1
           span Clasificación de las empresas en sectores según su actividad
-        img(src='@/assets/curso/tema1/img11.svg', alt='Texto que describa la imagen')
+        img(data-aos="fade-up")(src='@/assets/curso/tema1/img11.svg', alt='Texto que describa la imagen')
     .col-lg-5.mt-5
       .row.colort2
         .col-lg-10
           h3.text-white.mt-3 Según el ámbito territorial de operación 
         .col-lg-2
-          img(src='@/assets/curso/tema1/ico1.svg', alt='Texto que describa la imagen')
+          img.wix(src='@/assets/curso/tema1/ico1.svg', alt='Texto que describa la imagen')
     p.mt-3 En este sentido las empresas se clasifican en conformidad a las zonas geográficas donde desarrollan su actividad de manera directamente, por lo cual pueden ser:
     .row.mb-5
       .col-md-6.mb-5.mb-md-0
@@ -234,7 +234,7 @@
           p(numero="3" titulo="Nacionales") Aquellas empresas donde pueden tener varias áreas o plantas productivas pero su comercialización cubre la mayor parte de los municipios y ciudades del país, Por ejemplo Postobón que cuenta con varias plantas embotelladoras en el país para poder cubrir los diferentes territorios comercialmente.
           p(numero="4" titulo="Multinacionales") Son las empresas que tienen presencia y desarrollo de actividad en otros países, donde son de origen es colombiano, pero pueden desarrollar industria y comercialización de productos en otros países, ejemplo Colombina SA, desarrolla actividades industriales en Colombia, pero tiene subsidiarias en Guatemala, España, y exporta a más 50 países del mundo, en algunos tiene puntos propios.<br><br>Así mismo, pueden existir otras formas de clasificar las organizaciones, lo que permite a los emprendedores identificar cual es el criterio bajo el cual se promueve la asociación organizacional.
       .col-md-6
-        img(src='@/assets/curso/tema1/img12.png', alt='Texto que describa la imagen')
+        img(data-aos="fade-left")(src='@/assets/curso/tema1/img12.png', alt='Texto que describa la imagen')
     separador
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2   Estructura organizacional  
@@ -243,44 +243,44 @@
         p.mt-5 La estructura organizacional empresarial es un mecanismo de ordenación que define cómo será el ordenamiento de la empresa desde sus actividades, las relaciones entre los trabajadores y demás componentes de la empresa. 
         p Sirve para esquematizar gráficamente y adecuar las actividades a desarrollar por parte de la empresa y sus equipos de trabajo, adecuar a las personas necesarias en función de dichas actividades, lo que conlleva una mejor comprensión de la empresa y del quehacer ordinario
       .col-lg-6
-        img(src='@/assets/curso/tema1/img13.svg', alt='Texto que describa la imagen')
+        img(data-aos="fade-left")(src='@/assets/curso/tema1/img13.svg', alt='Texto que describa la imagen')
     p.mt-4 Así mismo, sirve para definir el esquema de comunicaciones y de división del trabajo dando como resultado las áreas funcionales de una empresa; esta estructuración deriva en una jerarquización según el nivel de roles de la empresa, es decir quienes toman decisiones, quienes coordinan las operaciones y quienes ejecutan o verifican las acciones propiamente dichas.  
     .row.justify-content-center
       .col-lg-8
         .titulo-sexto.color-acento-botones
           h5 Figura 1
           span Estructura jerárquica y su distribución departamental en las empresas
-        img(src='@/assets/curso/tema1/img14.svg', alt='Texto que describa la imagen')
+        img(data-aos="fade-up")(src='@/assets/curso/tema1/img14.svg', alt='Texto que describa la imagen')
     p.mt-5 Dentro de la estructura organizacional se puede definir cómo será el ordenamiento funcional, es decir por el conjunto de actividades afines, que conforman los departamentos o áreas de la empresa.
     p Toda empresa tiene tres funciones básicas:
-    .row
+    .row.align-items-center
       .col-lg-3
         img(src='@/assets/curso/tema1/img15.png', alt='Texto que describa la imagen')
 
-      .col-lg-9
+      .col-lg-9.ml
         .row.p-3.colort3
           p <strong>Producción o servicio:</strong> es el conjunto de actividades relacionadas con las actividades principales de la empresa, a lo que se dedica. Si la empresa desarrolla actividad productiva para la obtención de productos agropecuarios su área o departamento de producción será el conjunto de actividades propiamente relacionadas con ese propósito; pero si la empresa desarrolla servicios, como asistencia agrícola, control fitosanitario, etc., que son intangibles como actividad principal, entonces se denomina departamento de servicio en lugar de producción.
-    .row.mt-4
+    .row.mt-4.align-items-center
       .col-lg-3
         img(src='@/assets/curso/tema1/img16.png', alt='Texto que describa la imagen')
 
-      .col-lg-9
+      .col-lg-9.ml
         .row.p-3.colort3
           p.mb-4 <strong>Ventas y comercialización:</strong>  son el conjunto de actividades concernientes a la búsqueda de clientes, el desarrollo de oferta y venta efectiva de productos o los servicios que la empresa presta.
           .row.mb-4
           .row.mb-2
-    .row.mt-4
+    .row.mt-4.align-items-center
       .col-lg-3
         img(src='@/assets/curso/tema1/img17.png', alt='Texto que describa la imagen')
 
-      .col-lg-9
+      .col-lg-9.ml
         .row.p-3.colort3
           p.mb-4 <strong>Administración:</strong>   es el conjunto de actividades complementarias a las técnicas de producción y de comercialización, que permiten el sostenimiento e integración de la empresa, vela por el manejo de los recursos y su disposición, sirve de soporte logístico a las otras dos funciones básicas empresariales.
           .row.mb-4
     .titulo-sexto.color-acento-botones.mt-5
       h5 Figura 2
       span Ejemplo de organigrama de áreas funcionales para una empresa agropecuaria
-    img(src='@/assets/curso/tema1/img18.svg', alt='Texto que describa la imagen')
+    img(data-aos="fade-up")(src='@/assets/curso/tema1/img18.svg', alt='Texto que describa la imagen')
     p.mt-5 Se recomienda que toda empresa agropecuaria defina esquemas gráficos que faciliten a los nuevos trabajadores, personal interno, externo y en general a todas las dependencias de la empresa, una mejor comprensión de la organización y sus dependencias. Esto sirve de base en los procesos de comunicación y de mejora continua.
 </template>
 

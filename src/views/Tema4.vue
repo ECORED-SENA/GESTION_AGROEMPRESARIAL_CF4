@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade")
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
@@ -13,7 +13,7 @@
         .row
           .col-lg-11.mt-4
             p El diagnóstico empresarial para el empresario contemporáneo es una herramienta de gestión que permite identificar las debilidades y fortalezas para enfrentar un mercado muy dinámico.
-      .col-lg-5
+      .col-lg-5(data-aos="fade-right")
         img(src='@/assets/curso/tema4/img1.svg', alt='Texto que describa la imagen')
     p.mt-4 El proceso de análisis permite la evaluación de los productos, servicios, estrategia de ventas, el <i>marketing</i> y la publicidad empleados, entre otras variables operativas. Todo esto te permitirá descubrir cuáles son los puntos fuertes y débiles para actuar en consecuencia.
     separador
@@ -26,7 +26,7 @@
           .col-lg-12.mt-4
             .tarjeta-avatar-b.mb-5
               .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema4/ico1.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema4/i1.png' alt='AvatarTop')
               .tarjeta.tarjeta--azul.ca1
                 .p-4
                   h5 Diagnóstico funcional
@@ -34,7 +34,7 @@
           .col-lg-12.mt-4
             .tarjeta-avatar-b.mb-5
               .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema4/ico2.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema4/i2.png' alt='AvatarTop')
               .tarjeta.tarjeta--azul.ca2
                 .p-4
                   h5 Diagnóstico específico
@@ -42,7 +42,7 @@
           .col-lg-12.mt-4
             .tarjeta-avatar-b.mb-5
               .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema4/ico3.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema4/i3.png' alt='AvatarTop')
               .tarjeta.tarjeta--azul.ca3
                 .p-4
                   h5 Diagnóstico organizacional integral
@@ -54,10 +54,11 @@
       .row
         .col-lg-6
           p La operación empresarial se da en un contexto de múltiples variables y aspectos que la afectan permanentemente, el cual en los años recientes se ha complejizado por su alta dinámica, pluralidad de variables, nuevos escenarios y actores, a efectos de la ruptura por la globalización e internacionalización para la actuación empresarial. 
-          .row.p-3.colort4
+          .row.p-3.colort4.marq
             p En este sentido, las empresas están llamadas a desarrollar capacidades competitivas mucho más exigentes y versátiles que les permita la sobrevivencia, donde si lo que se quiere es ser distinguido o llevar la delantera, deberá hacer muchos más esfuerzos a los que comúnmente realiza, es decir desarrollar una ventaja competitiva creciente y sostenida, esto demanda diagnóstico que pretende evaluar o anticipar las alternativas desde el presente (Rodríguez, 2012).
+          .row.maqw2
           p Es por estas razones que realizar un diagnóstico empresarial con fines del fortalecimiento y competitividad requiere de la clasificación de variables que agrupadas conforman lo que se denomina factores y aspectos a evaluar. 
-        .col-lg-6
+        .col-lg-6(data-aos="fade-right")
           img(src='@/assets/curso/tema4/img2.png' alt='AvatarTop')
       .row.mt-4
         .col-lg-7
@@ -102,10 +103,11 @@
       .row
         .col-lg-6
           p Lo exógeno corresponde a lo externo, es decir al conjunto de variables o aspectos a evaluar donde su comportamiento no depende de las actuaciones de la empresa, por tanto, no son controlables por parte de la empresa.
-          .row.p-3.colort4
+          .row.p-3.colort4.marq
             p Las múltiples variables se agrupan según su naturaleza en factores, determinando un escenario de macroentorno y microentorno, permitiendo identificar cambios del escenario empresarial o del sector o industria y de donde se pueden identificar posibles oportunidades de crecimiento o amenazas que pueden representar dichas variables no controlables.
+          .row.maqw3
           p.mt-2 El macroentorno es la parte entorno de la empresa más lejana, con variables que desde una perspectiva general afecta a las empresas, es decir, el macroentorno es igual para todas las empresas de un país o región, del mismo sector económico en que pueden estar operando: legislaciones, aspectos tecnológicos, económicos, etc. El microentorno, es la externalidad próxima a la empresa, como los proveedores, clientes y la competencia.
-        .col-lg-6
+        .col-lg-6(data-aos="fade-right")
           img(src='@/assets/curso/tema4/img4.png' alt='AvatarTop')
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
       .row.justify-content-center(titulo="Políticos y gubernamentales")
@@ -152,6 +154,7 @@
     .row
       .col-lg-6
         img(src='@/assets/curso/tema4/img6.svg' alt='AvatarTop')
+
       .col-lg-6
         img(src='@/assets/curso/tema4/img7.svg' alt='AvatarTop')
     p.mt-4 La técnica establece que una vez ya clasificada la información y determinado su nivel de impacto positivo o negativo se procede a armar la Matriz DOFA, propiamente dicha, para tomar la decisiones o acciones haciendo los cruces pertinentes, esto implica focalizar en unos pocos aspectos críticos de los factores por cada tipo, los de mayor relevancia o impacto a la empresa, por que a partir de allí se planteará la toma de decisiones, fijación de objetivos.
@@ -189,9 +192,14 @@ export default {
 .p-3.pb-0.p-md-4.pb-md-0.mb-3.tarjeta.tarjeta--azul.acordion__activo
   background-color: #EDD5DC
   border-bottom: 0px
+  border-radius: 20px
 .p-3.pb-0.p-md-4.pb-md-0.mb-3.tarjeta.tarjeta--azul
   background-color: white
   border-bottom: 2px solid #A3314F
+  border-radius: 0px
 .img-infografica.color-acento-botones .img-infografica__item__numero, .img-infografica-b.color-acento-botones .img-infografica__item__numero
   color: #12263F
+.tarjeta.color-acento-botones
+  @media screen and ( max-width: 992px)
+    width: 100%
 </style>

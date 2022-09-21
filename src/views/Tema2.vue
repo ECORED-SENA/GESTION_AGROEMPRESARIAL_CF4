@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade")
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
@@ -12,7 +12,7 @@
       .col-lg-10
         ImagenInfografica.color-acento-botones.mb-5.mt-4
           template(v-slot:imagen)
-            figure
+            figure(data-aos="fade-up")
               img(src='@/assets/curso/tema2/img1.png', alt='Texto que describa la imagen')
 
           .tarjeta.color-acento-botones.p-3(x="20%" y="13%" numero="+")
@@ -30,7 +30,7 @@
         p.mt-5 Pero la competencia como fuerza que impulsa los negocios induce a las empresas a la innovación y desarrollo de productos, de tal manera que las empresas deben concebir nuevos procesos más eficientes, mejorar el control para el aprovechamiento de los recursos, concebir un ciclo productivo más corto, generando estrategias que les da ventajas competitivas eficaces, beneficiando a sus clientes con mejoras a sus condiciones de calidad de vida según sus preferencias. 
         .row.p-3.colort4
           p Estas fuerzas en buena medida, así como pueden tener efectos propositivos para el desarrollo empresarial, de contar con buenas condiciones y flujo, también pueden ser adversas en la medida en que no encuentran espacio para su desarrollo, así mismo su efecto interactivo entre ellas genera efectos que pueden reducir los efectos positivos en las otras, por ejemplo, las tendencias de decisión políticas y de gobierno, generan riesgos a quienes tiene capitales y desean invertir, por lo cual buscaran medidas y espacios de inversión menos riesgosas, lo que implica una reducción de inversiones en las empresas, su mercado, etc., teniendo efectos por ende en el mercado y la competencia. Asu vez un cambio tecnológico, como lo ocurrido en pandemia por Covid- 19, deprimió algunos sectores de mercado presencial y solo quienes a partir de la introducción de desarrollos tecnológicos en sus negocios pudieron sobrevivir.
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         img.mt-2(src='@/assets/curso/tema2/img2.png', alt='Texto que describa la imagen')
 
 </template>
@@ -55,4 +55,12 @@ export default {
 <style lang="sass">
 .img-infografica.color-acento-botones .img-infografica__item__numero, .img-infografica-b.color-acento-botones .img-infografica__item__numero
   color: #12263F
+.tarjeta.color-acento-botones
+  @media screen and ( max-width: 992px)
+    width: 350px
+  @media screen and ( max-width: 420px)
+    width: 350px
+.img-infografica__card, .img-infografica-b__card
+  @media screen and ( max-width: 420px)
+    margin-right: 50px
 </style>

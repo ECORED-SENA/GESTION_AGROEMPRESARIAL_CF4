@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade")
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
@@ -11,7 +11,7 @@
     p Los recursos administrativos se pueden clasificar en cuatro grandes grupos, recursos de talento humano, recursos físicos o tangibles, recursos financieros o monetarios y los recursos intangibles:
     .row.bg4
       .row.justify-content-center
-        .col-lg-10
+        .col-lg-10(data-aos="fade-up")
           .titulo-sexto.color-acento-botones.mt-3
             h5 Figura 12
             span Clases de recursos 
@@ -20,7 +20,7 @@
               figure
                 img(src='@/assets/curso/tema5/img1.svg', alt='Texto que describa la imagen')
 
-            div(x="96%" y="60%" tooltip="tooltip de max 35 caracteres")
+            div(x="96%" y="60%" tooltip="Recursos intangibles")
               .row.justify-content-center.colort6
                 .col-lg-10
                   h5.mt-4 Recursos intangibles
@@ -41,7 +41,7 @@
                     li 
                       i.fas.fa-angle-right.colorvi.mb-0
                       | Los secretos del saber hacer- fórmulas, etc. 
-            div(x="70%" y="11%" tooltip="tooltip de max 35 caracteres")
+            div(x="70%" y="11%" tooltip="Recursos Físicos ")
               .row.justify-content-center.colort6
                 .col-lg-10
                   h5.mt-4 Recursos Físicos 
@@ -56,7 +56,7 @@
                     li 
                       i.fas.fa-angle-right.colorvi.mb-0
                       p     <strong>Bienes inmuebles:</strong> lotes, edificios, oficinas, casas, minas, etc.
-            div(x="28%" y="11%" tooltip="tooltip de max 35 caracteres")
+            div(x="28%" y="11%" tooltip="Recursos Financieros")
               .row.justify-content-center.colort6
                 .col-lg-10
                   h5.mt-4 Recursos Financieros
@@ -74,7 +74,7 @@
                     li 
                       i.fas.fa-angle-right.colorvi.mb-0
                       p     <strong>Ajenos:</strong>     créditos (bancarios o extra-bancarios), cuentas por pagar, inversiones temporales (acciones comunes o preferenciales, bonos).
-            div(x="5%" y="60%" tooltip="tooltip de max 35 caracteres")
+            div(x="5%" y="60%" tooltip="Recursos Humanos")
               .row.justify-content-center.colort6
                 .col-lg-10
                   h5.mt-4 Recursos Humanos

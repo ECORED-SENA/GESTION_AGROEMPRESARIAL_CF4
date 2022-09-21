@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade")
 
     p La gestión empresarial y el desarrollo de las actividades empresariales, es un ejercicio que parte de la identificación de la empresa como un conjunto de partes que conforman un todo, y que ese todo persiga un fin u objetivo.
 

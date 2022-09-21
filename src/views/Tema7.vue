@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade")
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 7
@@ -17,7 +17,7 @@
                   span 
                 h4 Planeación estratégica
         p Uno de los modelos integrales que permite la fijación de objetivos empresariales a partir de un ejercicio de diagnóstico, determinando objetivos y medidas estratégicas en las empresas con el fin de mantener su capacidad competitiva. El modelo parte del reconocimiento de aspectos fundamentales como la misión y la visión, como preceptos inspiradores del que hacer empresarial, y a partir de allí, se determina la condición actual, fijando planes de acción en conformidad a las oportunidades y amenazas, fortalezas y debilidades. 
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         img(src='@/assets/curso/tema7/1.png', alt='Texto que describa la imagen')
     figure.mb-5.mt-4
       .video
@@ -73,4 +73,13 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.p-3.pb-0.p-md-4.pb-md-0.mb-3.tarjeta.tarjeta--azul.acordion__activo
+  background-color: #EDD5DC
+  border-bottom: 0px
+  border-radius: 20px
+.p-3.pb-0.p-md-4.pb-md-0.mb-3.tarjeta.tarjeta--azul
+  background-color: white
+  border-bottom: 2px solid #A3314F
+  border-radius: 0px
+</style>

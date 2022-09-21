@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade")
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
@@ -9,10 +9,10 @@
     .row
       .col-lg-6
         p En las empresas el ejercicio administrativo y gerencial es fundamental para la fijación y el desarrollo de las actividades y alcanzar los objetivos deseados que se establecen en la planeación; esto requiere que en su ejecución se obtenga información del estado de avance de las operaciones, de las condiciones para el desarrollo del plan, es síntesis, en la fijación de estados actuales lo que se denomina diagnóstico, por lo cual existen una serie de herramientas para la gestión empresarial que permitan optimizar su desarrollo y orientar la toma de decisiones y la dirección efectiva de la empresa.
-        .row.p-3.colort4
+        .row.p-3.colort4.marq
           p Las herramientas de gestión facilitan el análisis de la organización y aumentan el control, ampliando el conocimiento de los procesos y actividades que se desarrollan, que en un ejercicio compartido con los diferentes actores de áreas funcionales alinean la organización en la resolución de problemas y la definición de soluciones, fijación de objetivos, entre otros. En estas herramientas se puede hacer revisiones de variables cualitativas o cuantitativas para toma de decisiones frente a alternativas empresariales. 
-      .col-lg-6
-        img.mt-2(src='@/assets/curso/tema3/img1.png', alt='Texto que describa la imagen')
+      .col-lg-6(data-aos="fade-left")
+        img.mt-2.marq2(src='@/assets/curso/tema3/img1.png', alt='Texto que describa la imagen')
     p.mt-5 Por lo anterior, se puede decir que las herramientas de <strong>análisis empresarial</strong>, son todos los métodos que se consideren para hacer más eficaz la administración de una empresa al facilitar la toma de decisiones. Entre las más utilizadas están las siguientes:
     ol.lista-ol--cuadro.mt-4
       li 
@@ -23,7 +23,7 @@
       .col-lg-5
         p Es una herramienta para identificar de manera estructurada las causas de un problema o efecto evidenciado a partir de un esquema gráfico que se asemeja a una espina de pescado que es como también se denomina a esta herramienta.
         p.mt-3 La técnica de utilización refiere a identificar las causas principales de un problema o efecto negativo en la empresa, posteriormente identificar las subcausas o variables de causas relacionadas con las principales que estén contribuyendo con el problema, y que son de carácter secundario e inclusive pueden ser de carácter terciario como en el caso de proveedores, que infieren en la disponibilidad de materiales de materias primas, insumos o suministros, y dentro de este problema, que estos proveedores están concentrados, o que los materiales de los proveedores solo se consiguen en ciertas cantidades no disponibles para la empresa. Es muy versátil para analizar y resolver problemas complicados, pues permite un análisis desde los factores operativos más relevantes de la empresa.
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         .titulo-sexto.color-acento-botones
           h5 figura
           span Esquema de diagrama causa efecto
@@ -33,13 +33,13 @@
         .lista-ol--cuadro__vineta
           span 
         h4 Diagrama de Pareto
-    p.mt-5 Esta herramienta es una forma particular de un diagrama de barras verticales utilizado para identificar los pocos vitales y los muchos triviales que puede tener una empresa, donde los primeros son en gran medida los responsables de la mayor parte de los efectos negativos de los problemas en la empresa, donde caso siempre se asocian a una relación 70-30 o 80-20, esto es, que del total de los múltiples problemas que puede tener una empresa entre el 70% al 80% se concentran en pocas causas, y el resto de problemas que son múltiples representan entre el 20% al 30% de los casos, por lo cual la empresa debe concentrar su atención en resolver esos pocos problemas que son vitales para el negocio pues tienen mucho efecto, y que solucionando estos probablemente se resuelven muchos de los aspectos menores .
+    p.mt-4 Esta herramienta es una forma particular de un diagrama de barras verticales utilizado para identificar los pocos vitales y los muchos triviales que puede tener una empresa, donde los primeros son en gran medida los responsables de la mayor parte de los efectos negativos de los problemas en la empresa, donde caso siempre se asocian a una relación 70-30 o 80-20, esto es, que del total de los múltiples problemas que puede tener una empresa entre el 70% al 80% se concentran en pocas causas, y el resto de problemas que son múltiples representan entre el 20% al 30% de los casos, por lo cual la empresa debe concentrar su atención en resolver esos pocos problemas que son vitales para el negocio pues tienen mucho efecto, y que solucionando estos probablemente se resuelven muchos de los aspectos menores .
     .row.mt-5
       .col-lg-5
         .titulo-sexto.color-acento-botones
           h5 figura
           span Ejemplo de las quejas y reclamos de clientes por artículos recibidos en un mes
-        .tabla-a.color-primario.mb-5 
+        .tabla-a.color-primario.mb-5.ff(data-aos="fade-right") 
           table
             thead
               tr
@@ -88,7 +88,7 @@
                 td <strong>156</strong>
                 td <strong>100,00 %</strong>
                 td                                                        
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         img.mt-2(src='@/assets/curso/tema3/img3.svg', alt='Texto que describa la imagen')
     p.mt-5 En este ejemplo anterior, se puede observar que del total de los 156 casos de quejas y reclamos, el 74,4% de los casos corresponden a tres causas, mientras que las otras cuatro causas de quejas solo contemplan el restante 25,6%; por lo cual la empresa debe tomar decisiones relacionadas con estas causas que concentran la mayoría de las quejas de los clientes por los productos adquiridos, siendo que en la búsqueda de solucionar estos inconvenientes y conscientes de la importancia para la empresa, los demás aspectos seguramente también se corregirán.
     p Esta herramienta tiene muchas aplicabilidades, para el análisis en la empresa, y por ende facilitar la toma de decisiones, es un ejercicio de aplicabilidad de la administración promoverla al interior de sus diferentes áreas funcionales.
@@ -110,47 +110,47 @@
 
           span Crecimiento del producto
         .row.justify-content-center
-          .col-lg-10
+          .col-lg-10(data-aos="fade-left")
             img(src='@/assets/curso/tema3/img4.svg', alt='Texto que describa la imagen')
     .row.p-3.colort4.mt-4
       p Estos cuadrantes se definen entre dos variables, el crecimiento en el mercado es decir como aumentan las ventas, y el eje de participación de mercado, que es cuánto de lo se vende en el sector o industria contribuye la empresa, o cuánto de lo que vende la empresa representa cada producto. Comprendido esto la labor diagnóstica de la empresa es ubicar su portafolio de productos en los cuadrantes según corresponda, puede haber varios en un solo cuadrante o cuadrantes sin productos.
     p.mt-4 Hay que tener en cuenta que esta clasificación de productos por categorías se da a partir de:
     .row.mt-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-up")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/ico1.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--azul.color-secundario
+            img.waq(src='@/assets/curso/tema3/ico1.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul.color-primario.sombra
             .p-4
               p.mt-4.line <strong>Productos estrella.</strong>
               p Son aquellos con gran crecimiento y que están logrando buena participación de mercado. A estos productos ubicados en este cuadrante hay que estimularlos seguirles invirtiendo y no retirarles utilidades, hasta que no se vuelvan vacas lecheras.
-      .col-lg-12
+      .col-lg-12(data-aos="fade-up")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/ico2.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--azul.color-secundario
+            img.waq(src='@/assets/curso/tema3/ico2.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul.color-primario.sombra
             .p-4
               p.mt-4.line <strong>Productos interrogantes.</strong>
               p Son aquellos productos que tienen un rápido crecimiento, pero aún poca cuota de participación en el mercado, regularmente porque son nuevos. Se recomienda seguir invirtiéndoles porque son semillas que crecerán y se convertirán en productos estrella o vacas lecheras, se tiene que supervisar mucho porque también fácilmente se pueden convertir en productos perros, porque las personas consumen al inicio por exploración, pero si no gustan, no recompran, no crecerán.
-      .col-lg-12
+      .col-lg-12(data-aos="fade-up")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/ico3.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--azul.color-secundario
+            img.waq(src='@/assets/curso/tema3/ico3.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul.color-primario.sombra
             .p-4
               p.mt-4.line <strong>Productos vaca lechera:</strong>
               p Se denominan así porque son los productos más desarrollados que producen los ingresos más altos en la empresa, ya están bien posicionados en el mercado, aunque cada vez es más difícil aumentar su crecimiento de ventas, porque el mercado ya está saturado o es inflexible. De los recursos de estos productos se pueden retirar utilidades con que vive la empresa e invertir en los otros productos como estrellas e interrogantes incluso.
-      .col-lg-12
+      .col-lg-12(data-aos="fade-up")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/ico4.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--azul.color-secundario
+            img.waq(src='@/assets/curso/tema3/ico4.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul.color-primario.sombra
             .p-4
               p.mt-4.line <strong>Productos perro.</strong>
               p Estos productos no presentan crecimiento en ventas y baja participación de mercado frente a lo que se vende en el sector o industria, por ende, no contribuyen en los beneficios de la empresa regularmente, incluso llega a ser negativa la utilidad. En estos casos se recomienda retirar del portafolio y oferta de productos estas referencias. En ocasiones hay que mantenerlos ya que representan la tradición de la empresa, tienen el posicionamiento y generan la confianza en los otros productos de la empresa, aun cuando su contribución a la empresa no es alto, regularmente fueron vacas lechera, que por cambios en las tendencias de consumo o por que salieron productos para la misma función o servicio con mejor tecnología o eficiencia se quedaron relegados, se podría desarrollar esos productos, para ver si se recompone su crecimiento, decisiones que deben tomar los empresarios al diagnosticar las potencialidades del producto.
     .row.mt-4
       .col-lg-3
-      .col-lg-5
+      .col-lg-5(data-aos="fade-up")
         .titulo-sexto.color-acento-botones
           h5 Figura 3
           span Ejemplo de Aplicación Matriz BCG  
@@ -185,7 +185,7 @@
       p.mt-4 Es la representación gráfica de las diferentes fases por las que atraviesan los productos desde su desarrollo hasta su retiro de la oferta del portafolio de productos de la empresa, está constituido por cuatro fases plenamente identificables
       .row.mt-4
         .col-lg-1
-        .col-lg-9
+        .col-lg-9(data-aos="fade-up")
           .titulo-sexto.color-acento-botones
             h5 figura 4
             span Ciclo de vida del producto
@@ -221,15 +221,16 @@
               h4 Relación de la matriz BCG y el ciclo de vida del producto
       .row.mt-5
         .col-lg-6
-          .row.colort4.p-3
+          .row.colort4.p-3.marq
             p En la figura 5, se puede correlacionar la relación existente entre el ciclo de vida del producto y la matriz BCG identificando como el crecimiento en ventas se relaciona con la participación de mercado y el tiempo con la tasa de crecimiento en ventas, lo que sirve para alinear las decisiones estratégicas en la empresa según el tipo de mercado, su clasificación y su ciclo de vida de producto.
-          p.mt-3 Un producto con buena participación en el mercado y un crecimiento en ventas de manera sostenida puede ser la situación previa a un declive por lo cual la empresa debe hacer este análisis y prepararse para hacer un reacondicionamiento o mejoramiento a su producto en pro de alargar su etapa de madurez es decir tomar las decisiones de defender su posición relativa de mercado y seguir promoviendo el bien producto o servicio como un bien de calidad de vida para sus consumidores y como una alternativa de consumo para el mercado en general, esto es que la empresa, procurará dependiendo de la fase en que se encuentre su producto agilizar su efecto como en el caso del crecimiento ampliar la fase de maduración y cuando se empiezan a evidenciar pérdidas de atractivo en el mercado y disminución de ventas reforzar su producto a efectos de que no caiga en declive. 
-        .col-lg-6
+          .row.maqw
+          p.mt-5 Un producto con buena participación en el mercado y un crecimiento en ventas de manera sostenida puede ser la situación previa a un declive por lo cual la empresa debe hacer este análisis y prepararse para hacer un reacondicionamiento o mejoramiento a su producto en pro de alargar su etapa de madurez es decir tomar las decisiones de defender su posición relativa de mercado y seguir promoviendo el bien producto o servicio como un bien de calidad de vida para sus consumidores y como una alternativa de consumo para el mercado en general, esto es que la empresa, procurará dependiendo de la fase en que se encuentre su producto agilizar su efecto como en el caso del crecimiento ampliar la fase de maduración y cuando se empiezan a evidenciar pérdidas de atractivo en el mercado y disminución de ventas reforzar su producto a efectos de que no caiga en declive. 
+        .col-lg-6(data-aos="fade-right")
           img(src='@/assets/curso/tema3/img10.png' alt='AvatarTop')
     p.mt-4 Para la etapa de introducción los esfuerzos deben ser dinámicos ágiles, sabiendo canalizar las inversiones para el posicionamiento y conocimiento por ende del producto ante los consumidores potenciales así irá resolviendo el interrogante que representa estos productos para la matriz BCG.
     .row.mt-4
       .col-lg-1
-      .col-lg-9
+      .col-lg-9(data-aos="fade-right")
         .titulo-sexto.color-acento-botones
           h5 figura 5
           span Relación de la matriz BCG y el ciclo de vida del producto 
@@ -276,30 +277,30 @@
           .tarjeta-avatar-b.mb-3
             .tarjeta-avatar-b__img
               img.wi1(src='@/assets/curso/tema3/1.svg' alt='AvatarTop')
-            .tarjeta.tarjeta--azul
-              .p-4
-                p Indicadores macroeconómicos agregados como el PIB y su contraste en diferentes periodos
+            .tarjeta.tarjeta--azul.colz
+              .p-3
+                p.mb-0 Indicadores macroeconómicos agregados como el PIB y su contraste en diferentes periodos
         .col-lg-12
           .tarjeta-avatar-b.mb-3
             .tarjeta-avatar-b__img
               img.wi1(src='@/assets/curso/tema3/2.svg' alt='AvatarTop')
-            .tarjeta.tarjeta--azul
-              .p-4
-                p Comportamiento de las tasas de interés en los últimos años.
+            .tarjeta.tarjeta--azul.colz
+              .p-3
+                p.mb-0 Comportamiento de las tasas de interés en los últimos años.
         .col-lg-12
           .tarjeta-avatar-b.mb-5
             .tarjeta-avatar-b__img
               img.wi1(src='@/assets/curso/tema3/3.svg' alt='AvatarTop')
-            .tarjeta.tarjeta--azul
-              .p-4
-                p Evolución de los precios por inflación en los últimos años.
+            .tarjeta.tarjeta--azul.colz
+              .p-3
+                p.mb-0 Evolución de los precios por inflación en los últimos años.
 
       .col-lg-6
         .row.justify-content-center.colort5
           .col-lg-12
             .row.justify-content-center
               .col-lg-3
-                img.mt-5(src='@/assets/curso/tema3/ico5.svg', alt='Texto que describa la imagen')
+                img.mt-5.tam1(src='@/assets/curso/tema3/ico5.svg', alt='Texto que describa la imagen')
           .col-lg-12
             .row.justify-content-center
               .col-lg-8
@@ -319,25 +320,25 @@
           .titulo-sexto.color-acento-botones.mt-3
             h5 tabla 1
             span Ejemplo de concentración del estado de cartera por ventas (millones)     
-          .tabla-a.color-primario.mb-5 
+          .tabla-a.color-primario.mb-5(data-aos="fade-right") 
             table
               thead
                 tr
-                  th 
+                  th
                   th Corriente
                   th 30 Días
                   th 60 Días
                   th 90 Días
                   th Total de cartera           
               tbody
-                tr
+                tr.baa
                   td Cartera
                   td 50
                   td 35
                   td 15
                   td 12
                   td 112                 
-                tr
+                tr.baa
                   td Frecuencia
                   td 44,6 %
                   td 31,3 %
@@ -346,7 +347,7 @@
                   td 100,0 %
       p A partir de esta información suministrada por el gerente de las centrales de mercado, y quien resumió los promedios del número de Toneladas por producto que se venden diariamente en el en el mercado en una semana cualquiera, construyó el siguiente gráfico estadístico de estratificación de frecuencias de los productos.
       .row.justify-content-center
-        .col-lg-10
+        .col-lg-10(data-aos="fade-right")
           .titulo-sexto.color-acento-botones.mt-3
             h5 Figura 6
             span Diagrama de estratificación del estado de cartera por ventas a clientes
@@ -365,7 +366,7 @@
         .titulo-sexto.color-acento-botones.mt-3
           h5 Tabla 2
           span Ejemplo del nivel de ventas por mes en primer semestre   
-        .tabla-a.color-primario.mb-5 
+        .tabla-a.color-primario.mb-5(data-aos="fade-right") 
           table
             thead
               tr
@@ -379,7 +380,7 @@
                 th Total de Cartera
 
             tbody
-              tr
+              tr.baa
                 td Ventas/mes
                 td 55
                 td 20
@@ -388,7 +389,7 @@
                 td 40
                 td 65
                 td 300
-              tr
+              tr.baa
                 td %
                 td 18,3 %
                 td 6,7 %
@@ -398,7 +399,7 @@
                 td 21,7 %
                 td 100,0 %
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-10(data-aos="fade-right")
         .titulo-sexto.color-acento-botones.mt-3
           h5 Figura 7
           span Ejemplo de Histograma del comportamiento de ventas semestrales en una empresa
@@ -406,9 +407,9 @@
     .row.mt-5
       .col-lg-6.mt-3
         p En este caso, la variable continua es el tiempo y sus meses del primer semestre, entonces el gerente del restaurante puede identificar como es el comportamiento de ventas mensual en el semestre, lo que describe la estacionalidad de ingresos en el semestre en la empresa por ventas. 
-        .row.colort4.p-3
+        .row.colort4.p-3.marq
           p Lo cual le servirá para tomar decisiones sobre la disposición de caja y programación de pagos, así mismo, para establecer niveles de metas funcionales, es decir, en periodos de baja estacionalidad la empresa puede desarrollar actividades de capacitación entrenamientos, ya que su desarrollo y requiere periodos de concentración en estas actividades sin afectar la producción, así mismo, la implementación de nuevos procesos, tal como se ve para el mes de febrero.
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         img(src='@/assets/curso/tema3/img15.png', alt='Texto que describa la imagen')
     .row.mt-4
       .col-lg-7
@@ -427,7 +428,7 @@
           .titulo-sexto.color-acento-botones.mt-3
             h5 Tabla 3
             span Ejemplo de toneladas de verduras vendidas por tipo de mercado  
-          .tabla-a.color-primario.mb-5 
+          .tabla-a.color-primario.mb-5.ff
             table
               thead
                 tr
@@ -453,12 +454,12 @@
             h5 Figura 8
             span Distribución de clientes de la empresa por región de operación   
           img(src='@/assets/curso/tema3/img16.svg', alt='Texto que describa la imagen')
-    .tarjeta.color-acento-contenido.p-3.mb-5
+    .tarjeta.color-acento-contenido.p-3.mb-5.sombra
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/tema3/ico6.svg")
         .col
-          .row.justify-content-between.align-items-center
+          .row.justify-content-between
             .col.mb-3.mb-sm-0
               h5.mb-1 Herramientas estadísticas básicas de calidad
               p Utilización de herramientas estadísticas en las empresas. 
@@ -479,11 +480,11 @@
         p Cuando se habla de indicadores de gestión, viene a la mente sinónimo de medición y control, que efectivamente es la función para la cual se establecen, es decir son los instrumentos que facilitan identificar y evaluar los niveles de cumplimiento o desviación de los logros o actividades a realizar frente a los resultados esperados.
         .row.colort5.justify-content-center
           .col-lg-2.mt-4
-            img.mt-4(src="@/assets/curso/tema3/ico7.svg")
+            img.mt-4.tam1(src="@/assets/curso/tema3/ico7.svg")
 
           .col-lg-8.mt-4
             p Un indicador de gestión o KPI (<i>Key Performance Indicator</i> de su sigla traducida del inglés), representa la forma de medir si una función, proyecto, actividad, área funcional, unidad de negocio o la persona encargada, están alcanzando, logrando las metas y objetivos o resultados esperados.
-      .col-lg-6   
+      .col-lg-6(data-aos="fade-right")   
         img(src="@/assets/curso/tema3/img17.png")
     p.mt-4 Se deben utilizar indicadores de gestión en todos los niveles empresariales para evaluar el desempeño y lo establecido como metas en la planeación de la gestión empresarial. 
     p Ejemplo de algunos indicadores de gestión aplicados a cada una de las áreas funcionales de la empresa:                    
@@ -532,7 +533,7 @@
                 .row
                   .col-lg-10
                     img.mt-5(src='@/assets/curso/tema3/f1.svg', alt='Texto que describa la imagen')
-      .col-lg-4
+      .col-lg-4(data-aos="fade-right")
         img(src="@/assets/curso/tema3/img18.svg")
     .row.mt-4
       .col-lg-7
@@ -543,7 +544,7 @@
             h4 Indicadores productivos
     p Los cuales se presentan como
     .row.mt-4.borb
-      .col-md-6.mb-5.mb-md-0
+      .col-lg-6.mb-5.mb-md-0
         LineaTiempoD.color-secundario
           .row.justify-content-center(numero="1" titulo="Calidad del producto")
             .col-md-12.mb-4.mb-md-0
@@ -564,7 +565,7 @@
                 .col-lg-10
                   img(src='@/assets/curso/3.svg', alt='Texto que describa la imagen')
     
-      .col-lg-6
+      .col-lg-6.mt-2(data-aos="fade-right")
         img.mb-5(src="@/assets/curso/tema3/img19.png")
     .row.mt-4
       .col-lg-7
@@ -574,7 +575,7 @@
               span 
             h4 Indicadores de gestión humana
     .row.mt-4.borb
-      .col-md-6.mb-5.mb-md-0
+      .col-lg-6.mb-5.mb-md-0
         LineaTiempoD.color-secundario
           .row.justify-content-center(numero="1" titulo="Indicador de horas extra en el período")
             .col-md-12.mb-4.mb-md-0
@@ -589,7 +590,7 @@
                 .col-lg-10
                   img(src='@/assets/curso/5.svg', alt='Texto que describa la imagen')
     
-      .col-lg-6
+      .col-lg-6.mt-2(data-aos="fade-right")
         img.mb-5(src="@/assets/curso/tema3/img20.png")
     .row.mt-4
       .col-lg-7
@@ -599,7 +600,7 @@
               span 
             h4 Indicadores de ventas y comercialización
     .row.mt-4.borb
-      .col-md-6.mb-5.mb-md-0
+      .col-lg-6.mb-5.mb-md-0
         LineaTiempoD.color-secundario
           .row.justify-content-center(numero="1" titulo="Clientes nuevos")
             .col-md-12.mb-4.mb-md-0
@@ -614,7 +615,7 @@
                 .col-lg-10
                   img(src='@/assets/curso/7.svg', alt='Texto que describa la imagen')
     
-      .col-lg-6
+      .col-lg-6.mt-2(data-aos="fade-right")
         img.mb-5(src="@/assets/curso/tema3/img21.png")
     .row.mt-4
       .col-lg-7
@@ -625,12 +626,12 @@
             h4 Indicadores externos
     p Al igual que con la información derivada de las actividades internas de la empresa, se debe consultar información de indicadores de factores y variables externas:
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-10(data-aos="fade-up")
         .titulo-sexto.color-acento-botones.mt-3
           h5 Figura 9
           span Ejemplo de estadísticas e indicadores de siembra, producción y consumo de arroz
         img(src='@/assets/curso/tema3/img22.svg', alt='Texto que describa la imagen')
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-up")
       .col-lg-12
         .titulo-sexto.color-acento-botones.mt-3
           h5 Figura 10
@@ -665,7 +666,8 @@ export default {
 <style lang="sass">
 .tarjeta.color-secundario
   background-color: #F3F9FF
-  border-color: black
+  border: solid 2px #707070
+
 .fa-chevron-right:before
   color: #A3314F
 .fa-chevron-left:before
@@ -674,4 +676,15 @@ export default {
   background-color: #E8EEF3
 .img-infografica.color-acento-botones .img-infografica__item__numero, .img-infografica-b.color-acento-botones .img-infografica__item__numero
   color: #12263F
+.tarjeta.color-primario
+  background-color: #E8E8E8
+.tarjeta-avatar-b__img
+  min-width: 13%
+.boton.color-acento-botones *, .color-acento-botones.boton--sm *
+  color: black
+.boton.color-acento-botones:hover *, .color-acento-botones.boton--sm:hover *
+  color: black
+.tarjeta.color-acento-botones
+  @media screen and ( max-width: 992px)
+    width: 100%
 </style>
