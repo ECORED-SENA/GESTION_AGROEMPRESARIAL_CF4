@@ -686,5 +686,5 @@ export default {
   color: black
 .tarjeta.color-acento-botones
   @media screen and ( max-width: 992px)
-    width: 100%
+    width: 90%!important
 </style>

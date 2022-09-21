@@ -180,7 +180,7 @@
     .col-lg-4.mt-5
       .row.colort2.align-items-center
         .col-lg-9
-          h3.text-white.mt-2 Según el sector productivo
+          h3.text-white.mt-2.mb-2 Según el sector productivo
         .col-lg-3
           img.wix(src='@/assets/curso/tema1/ico1.svg', alt='Texto que describa la imagen')
     p.mt-4 En Colombia la economía se estructura a partir del tipo de procesos de producción que desarrollan las organizaciones empresariales las cuales, desde un enfoque convencional, se dividen en tres sectores:
@@ -220,9 +220,9 @@
     .col-lg-5.mt-5
       .row.colort2
         .col-lg-10
-          h3.text-white.mt-3 Según el ámbito territorial de operación 
+          h3.text-white.mt-2.mb-2 Según el ámbito territorial de operación 
         .col-lg-2
-          img.wix(src='@/assets/curso/tema1/ico1.svg', alt='Texto que describa la imagen')
+          img.wix2(src='@/assets/curso/tema1/ico1.svg', alt='Texto que describa la imagen')
     p.mt-3 En este sentido las empresas se clasifican en conformidad a las zonas geográficas donde desarrollan su actividad de manera directamente, por lo cual pueden ser:
     .row.mb-5
       .col-md-6.mb-5.mb-md-0
