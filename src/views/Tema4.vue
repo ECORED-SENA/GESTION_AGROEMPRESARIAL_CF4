@@ -153,10 +153,36 @@
       span Descripción de los factores Endógenos y Exógenos que afectan las empresas
     .row
       .col-lg-6
-        img(src='@/assets/curso/tema4/img6.svg' alt='AvatarTop')
+        .tabla-a.color-primario.mb-5.ff
+          table
+            thead
+              tr
+                <th colspan="2"> <strong>Factores Endógenos</strong> <br><br>Estos factores y sus aspectos de variables se deben analizar en conformidad a las condiciones en que están afectando la empresa en el momento actual en que se evalúa.<br><br>Su particularidad está en que su estado depende de los esfuerzos de la empresa, por tanto, son absolutamente controlables </th>
+
+
+            tbody
+              tr
+                td.text-center.bga <strong>Fortalezas</strong>
+                td.text-center.bga <strong>Debilidades</strong>
+              tr
+                td Las fortalezas son aquellos aspectos que domina la empresa para su supervivencia, lo que le permite operar, por lo que se distingue, en que es mejor que otros, etc.<br><br>Ejemplo la calidad del producto, por ello le compran y sobre todo le recompran.
+                td Es el comportamiento que tiene una variable controlable dentro de un factor, que hace que los impactos para la empresa sean desfavorables y la puedan estar induciendo a fracasos<br><br>Ejemplo de retrasos en las entregas.
 
       .col-lg-6
-        img(src='@/assets/curso/tema4/img7.svg' alt='AvatarTop')
+        .tabla-a.color-primario.mb-5.ff
+          table
+            thead
+              tr
+                <th colspan="2"> <strong>Factores Exógenos</strong> <br><br>Estos factores y sus aspectos de variables se deben analizar en conformidad a las condiciones en que están afectando la empresa en el momento actual en que se evalúa. <br><br>Su particularidad está en que su estado NO depende de la empresa, sino que están en el entorno en que opera la empresa, por tanto, NO son controlables. </th>
+
+
+            tbody
+              tr
+                td.text-center.bga <strong>Fortalezas</strong>
+                td.text-center.bga <strong>Debilidades</strong>
+              tr
+                td Son las posibilidades que se le presentan a la empresa de poder actuar en condiciones de favorabilidad o beneficio, desarrollo, crecimiento, porque el macroentorno se lo permite y lo favorece.<br><br>Ejemplo la reducción de los precios de los combustibles para una empresa transportadora.
+                td Son las posibilidades que uno o varios aspectos del macro o micro entorno afecten negativamente a la empresa, reduciendo su operación, beneficio, crecimiento, etc.<br><br>Ejemplo un aumento en los precios de los combustibles para una empresa transportadora.
     p.mt-4 La técnica establece que una vez ya clasificada la información y determinado su nivel de impacto positivo o negativo se procede a armar la Matriz DOFA, propiamente dicha, para tomar la decisiones o acciones haciendo los cruces pertinentes, esto implica focalizar en unos pocos aspectos críticos de los factores por cada tipo, los de mayor relevancia o impacto a la empresa, por que a partir de allí se planteará la toma de decisiones, fijación de objetivos.
     .row.justify-content-center
       .col-lg-6
@@ -202,4 +228,9 @@ export default {
 .tarjeta.color-acento-botones
   @media screen and ( max-width: 992px)
     width: 100%
+.tabla-a th
+  font-size: 16px
+  text-align: left
+.tabla-a thead
+  color: #12263F
 </style>

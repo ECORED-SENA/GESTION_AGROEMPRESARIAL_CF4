@@ -667,7 +667,10 @@ export default {
 .tarjeta.color-secundario
   background-color: #F3F9FF
   border: solid 2px #707070
-
+  @media screen and ( max-width: 992px)
+    margin-right: 200px
+  @media screen and ( max-width: 426px)
+    margin-right: 0px
 .fa-chevron-right:before
   color: #A3314F
 .fa-chevron-left:before
@@ -687,4 +690,7 @@ export default {
 .tarjeta.color-acento-botones
   @media screen and ( max-width: 992px)
     width: 90%!important
+.p-3.pb-0.p-md-4.pb-md-0.mb-3.tarjeta.tarjeta--azul.acordion__activo
+  background-image: url("../assets/curso/tema3/ff.png") !important
+  background-size: contain
 </style>
