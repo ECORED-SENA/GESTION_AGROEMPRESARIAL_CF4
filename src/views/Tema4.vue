@@ -157,7 +157,8 @@
           table
             thead
               tr
-                <th colspan="2"> Factores Endógenos <br><br>Estos factores y sus aspectos de variables se deben analizar en conformidad a las condiciones en que están afectando la empresa en el momento actual en que se evalúa.<br><br>Su particularidad está en que su estado depende de los esfuerzos de la empresa, por tanto, son absolutamente controlables </th>
+                <th colspan="2"> <h5>Factores Endógenos</h5> 
+                  <p>Estos factores y sus aspectos de variables se deben analizar en conformidad a las condiciones en que están afectando la empresa en el momento actual en que se evalúa.<br><br>Su particularidad está en que su estado depende de los esfuerzos de la empresa, por tanto, son absolutamente controlables </p></th>
 
 
             tbody
@@ -173,7 +174,8 @@
           table
             thead
               tr
-                <th colspan="2"> <strong>Factores Exógenos</strong> <br><br>Estos factores y sus aspectos de variables se deben analizar en conformidad a las condiciones en que están afectando la empresa en el momento actual en que se evalúa. <br><br>Su particularidad está en que su estado NO depende de la empresa, sino que están en el entorno en que opera la empresa, por tanto, NO son controlables. </th>
+                <th colspan="2"> <h5>Factores Exógenos</h5> 
+                  <p>Estos factores y sus aspectos de variables se deben analizar en conformidad a las condiciones en que están afectando la empresa en el momento actual en que se evalúa. <br><br>Su particularidad está en que su estado NO depende de la empresa, sino que están en el entorno en que opera la empresa, por tanto, NO son controlables.</p> </th>
 
 
             tbody
@@ -231,8 +233,4 @@ export default {
 .tabla-a th
   font-size: 16px
   text-align: left
-
-.tabla-a thead
-  color: #12263F
-  text-decoration: none
 </style>
