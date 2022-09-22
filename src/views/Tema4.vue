@@ -109,7 +109,7 @@
           p.mt-2 El macroentorno es la parte entorno de la empresa más lejana, con variables que desde una perspectiva general afecta a las empresas, es decir, el macroentorno es igual para todas las empresas de un país o región, del mismo sector económico en que pueden estar operando: legislaciones, aspectos tecnológicos, económicos, etc. El microentorno, es la externalidad próxima a la empresa, como los proveedores, clientes y la competencia.
         .col-lg-6(data-aos="fade-right")
           img(src='@/assets/curso/tema4/img4.png' alt='AvatarTop')
-    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--roja")
       .row.justify-content-center(titulo="Políticos y gubernamentales")
         .col-md-12.mb-4.mb-md-0
           p Legislación tributaria, comercial, laboral, etc., las políticas fiscales, el riesgo país, la estabilidad normativa.

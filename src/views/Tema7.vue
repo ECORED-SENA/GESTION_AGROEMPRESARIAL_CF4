@@ -30,7 +30,7 @@
               span 
             h4 Balanced Scorecard (BSC)
     p El BSC es una herramienta de gestión que convierte la visión o el objetivo a más largo plazo que tiene la empresa, en acciones explícitas, que mediante un conjunto de indicadores de gestión divididos en cuatro categorías o perspectivas en que se debe regir la empresa o negocio, estas perspectivas son las siguientes:
-    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--roja")
       .row.justify-content-center(titulo="Financiera")
         .col-md-12.mb-4.mb-md-0
           p Esta perspectiva de la empresa busca evidenciar el nivel de respuesta a las expectativas de los inversionistas o socios de la empresa, Busca verificar y hacer seguimiento al  valor para ellos mediante indicadores beneficio o utilidad, crecimiento de ingresos por ventas, crecimiento que reflejan el comportamiento operativo.
