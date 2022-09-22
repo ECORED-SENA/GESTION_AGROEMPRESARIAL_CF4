@@ -217,14 +217,7 @@ export default {
 </script>
 
 <style lang="sass">
-.p-3.pb-0.p-md-4.pb-md-0.mb-3.tarjeta.tarjeta--azul.acordion__activo
-  background-color: #EDD5DC
-  border-bottom: 0px
-  border-radius: 20px
-.p-3.pb-0.p-md-4.pb-md-0.mb-3.tarjeta.tarjeta--azul
-  background-color: white
-  border-bottom: 2px solid #A3314F
-  border-radius: 0px
+
 .img-infografica.color-acento-botones .img-infografica__item__numero, .img-infografica-b.color-acento-botones .img-infografica__item__numero
   color: #12263F
 .tarjeta.color-acento-botones
