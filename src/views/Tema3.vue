@@ -695,12 +695,11 @@ export default {
 .p-3.pb-0.p-md-4.pb-md-0.mb-3.tarjeta.tarjeta--azul.acordion__activo
   background-image: url("../assets/curso/tema3/ff.png") !important
   background-size: contain
-  background-color:
-  background-color: #E8EEF3
-  border-bottom: 0px
-  border-radius: 20px
+  background-color: #E8EEF3!important
+  border-bottom: 0px!important
+  border-radius: 20px!important
 .p-3.pb-0.p-md-4.pb-md-0.mb-3.tarjeta.tarjeta--azul
-  background-color: #E8EEF3
-  border-bottom: 0px
-  border-radius: 20px
+  background-color: #E8EEF3!important
+  border-bottom: 0px!important
+  border-radius: 20px!important
 </style>
