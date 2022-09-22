@@ -668,9 +668,11 @@ export default {
   background-color: #F3F9FF
   border: solid 2px #707070
   @media screen and ( max-width: 992px)
-    margin-right: 200px
-  @media screen and ( max-width: 426px)
-    margin-right: 0px
+    margin-left: -99px
+    width: 450px
+  @media screen and ( max-width: 428px)
+    margin-left: -70px!important
+    width: 260px
 .fa-chevron-right:before
   color: #A3314F
 .fa-chevron-left:before

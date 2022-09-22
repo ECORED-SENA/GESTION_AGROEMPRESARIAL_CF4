@@ -157,7 +157,7 @@
           table
             thead
               tr
-                <th colspan="2"> <strong>Factores Endógenos</strong> <br><br>Estos factores y sus aspectos de variables se deben analizar en conformidad a las condiciones en que están afectando la empresa en el momento actual en que se evalúa.<br><br>Su particularidad está en que su estado depende de los esfuerzos de la empresa, por tanto, son absolutamente controlables </th>
+                <th colspan="2"> Factores Endógenos <br><br>Estos factores y sus aspectos de variables se deben analizar en conformidad a las condiciones en que están afectando la empresa en el momento actual en que se evalúa.<br><br>Su particularidad está en que su estado depende de los esfuerzos de la empresa, por tanto, son absolutamente controlables </th>
 
 
             tbody
@@ -231,6 +231,8 @@ export default {
 .tabla-a th
   font-size: 16px
   text-align: left
+
 .tabla-a thead
   color: #12263F
+  text-decoration: none
 </style>

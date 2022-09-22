@@ -69,64 +69,51 @@
       p Entre los recursos físicos de activos que posee la empresa para su operación se encuentran los inventarios, es decir existencias de recursos para transformación, venta, uso o cualquier otro aspecto con fines operativos, que se encuentran almacenados en bodega, a espera de ser utilizados, los cuales regularmente se ordenan de la siguiente manera según su clase:
       .tarjeta.tarjeta--gris.p-4.mb-5
         LineaTiempoC.color-acento-contenido(text-small)
-          .row.justify-content-center()
-            .col-lg-10
-              .row
-                .col-md-6.mb-4.mb-md-0
-                  h5 Inventario de activos
+          .row.justify-content-center.px-4.ml
+            .col-md-10.mb-4.mb-md-0.col-lg-5.pe-5
+              h5 Inventario de activos
+              p Con el conjunto de recursos de capital con que cuenta la organización para su operación y el trabajo de los individuos. Se clasifican en bienes muebles e inmuebles, ejemplo: computadores muebles y escritorios, bodegas, lotes, fincas, etc.. 
+            .col-md-10.col-lg-5.pe-5
+              figure
+                img(src='@/assets/curso/tema6/1.png', alt='Texto que describa la imagen')
+          .row.justify-content-center.px-4.ml
+            .col-md-10.mb-4.mb-md-0.col-lg-5.pe-5
+              h5 Inventario de productos terminados
+              p Son aquellos productos que ya tienen completa su agregación de valor cumplieron su proceso de producción y están esperando para ser distribuidos.
+            .col-md-10.col-lg-5.pe-5
+              figure
+                img(src='@/assets/curso/tema6/2.png', alt='Texto que describa la imagen')
+          .row.justify-content-center.px-4.ml
+            .col-md-10.mb-4.mb-md-0.col-lg-5.pe-5
+              h5 Inventarios de materias primas
 
-                  p Con el conjunto de recursos de capital con que cuenta la organización para su operación y el trabajo de los individuos. Se clasifican en bienes muebles e inmuebles, ejemplo: computadores muebles y escritorios, bodegas, lotes, fincas, etc.. 
-              
-                .col-md-6
-                  figure
-                    img(src='@/assets/curso/tema6/1.png', alt='Texto que describa la imagen')
-          .row.justify-content-center()
-            .col-lg-10
-              .row
-                .col-md-6.mb-4.mb-md-0
-                  h5 Inventario de productos terminados
-                  p Son aquellos productos que ya tienen completa su agregación de valor cumplieron su proceso de producción y están esperando para ser distribuidos.
-                .col-md-6
-                  figure
-                    img(src='@/assets/curso/tema6/2.png', alt='Texto que describa la imagen')
-          .row.justify-content-center()
-            .col-lg-10
-              .row
-                .col-md-6.mb-4.mb-md-0
-                  h5 Inventarios de materias primas
+              p Recursos esenciales para la elaboración o fabricación de bienes o productos, se clasifican en materias primas, insumos y suministros.
+            .col-md-10.col-lg-5.pe-5
+              figure
+                img(src='@/assets/curso/tema6/3.png', alt='Texto que describa la imagen')
+          .row.justify-content-center.px-4.ml
+            .col-md-10.mb-4.mb-md-0.col-lg-5.pe-5
+              h5 Inventarios de productos en proceso
+              p Son aquellas materias primas, que ya han sufrido algún proceso de agregación de valor o transformación, pero que aún no han sido terminados totalmente. Ejemplo: producción de huevos que no han sido preparados, pesados, y embalados. Leche que se encuentra pasteurizada, pero no empacada está en silos.
+            .col-md-10.col-lg-5.pe-5
+              figure
+                img(src='@/assets/curso/tema6/4.png', alt='Texto que describa la imagen')
+          .row.justify-content-center.px-4.ml
+            .col-md-10.mb-4.mb-md-0.col-lg-5.pe-5
+              h5 Inventario de obsoletos
+              p Es el inventario que posee la empresa de productos que ya están obsoletos, deteriorados, que cumplieron su vida útil o caducaron, dañados o estropeados y no pueden ser comercializados ni distribuidos.
+            .col-md-10.col-lg-5.pe-5
+              figure
+                img(src='@/assets/curso/tema6/5.png', alt='Texto que describa la imagen')
+          .row.justify-content-center.px-4.ml
+            .col-md-10.mb-4.mb-md-0.col-lg-5.pe-5
+              h5 Inventario de repuestos 
 
-                  p Recursos esenciales para la elaboración o fabricación de bienes o productos, se clasifican en materias primas, insumos y suministros.
-                .col-md-6
-                  figure
-                    img(src='@/assets/curso/tema6/3.png', alt='Texto que describa la imagen')
-          .row.justify-content-center()
-            .col-lg-10
-              .row
-                .col-md-6.mb-4.mb-md-0
-                  h5 Inventarios de productos en proceso
-                  p Son aquellas materias primas, que ya han sufrido algún proceso de agregación de valor o transformación, pero que aún no han sido terminados totalmente. Ejemplo: producción de huevos que no han sido preparados, pesados, y embalados. Leche que se encuentra pasteurizada, pero no empacada está en silos.
-                .col-md-6
-                  figure
-                    img(src='@/assets/curso/tema6/4.png', alt='Texto que describa la imagen')
-          .row.justify-content-center()
-            .col-lg-10
-              .row
-                .col-md-6.mb-4.mb-md-0
-                  h5 Inventario de obsoletos
-                  p Es el inventario que posee la empresa de productos que ya están obsoletos, deteriorados, que cumplieron su vida útil o caducaron, dañados o estropeados y no pueden ser comercializados ni distribuidos.
-                .col-md-6
-                  figure
-                    img(src='@/assets/curso/tema6/5.png', alt='Texto que describa la imagen')
-          .row.justify-content-center()
-            .col-lg-10
-              .row
-                .col-md-6.mb-4.mb-md-0
-                  h5 Inventario de repuestos 
-
-                  p Son aquellos recursos que posee la empresa para efectos de suplir fallas en máquinas o partes intercambiables, deben permanecer disponibles cuando sean necesitados por el departamento de producción y no interrumpir el proceso de producción. Ejemplo: llantas para los camiones, una cuchilla para un tractor o guadaña, etc.
-                .col-md-6
-                  figure
-                    img(src='@/assets/curso/tema6/6.png', alt='Texto que describa la imagen')
+              p Son aquellos recursos que posee la empresa para efectos de suplir fallas en máquinas o partes intercambiables, deben permanecer disponibles cuando sean necesitados por el departamento de producción y no interrumpir el proceso de producción. Ejemplo: llantas para los camiones, una cuchilla para un tractor o guadaña, etc.
+            .col-md-10.col-lg-5.pe-5
+              figure
+                img(src='@/assets/curso/tema6/6.png', alt='Texto que describa la imagen')
+      
       separador
       #t_6_3.titulo-segundo.color-acento-contenido
         h2 6.3   Dirección
@@ -180,6 +167,8 @@ export default {
 <style lang="sass">
 .tarjeta--gris
   background-image: url("../assets/curso/tema6/bgt.png") !important
+  background-position: bottom
+  background-repeat: no-repeat
 .boton.color-acento-botones *, .color-acento-botones.boton--sm *
   color: black
 .boton.color-acento-botones:hover *, .color-acento-botones.boton--sm:hover *
