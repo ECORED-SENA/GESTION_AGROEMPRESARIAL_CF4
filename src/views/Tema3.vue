@@ -168,15 +168,12 @@
             .row.align-items-center.mb-3.slyderF-media
               .col-11.tarjeta.color-secundario.p-4
                 .col-11
-<<<<<<< HEAD
                   img(src='@/assets/curso/tema3/img8.svg' alt='AvatarTop')
             .tarjeta.color-secundario.p-4
               .row.justify-content-center.mb-3
-=======
                   img(src='@/assets/curso/tema3/img7.svg' alt='AvatarTop')
             .row.align-items-center.mb-3.slyderF-media
               .col-11.tarjeta.color-secundario.p-4
->>>>>>> d24d38dc58c97d05d7f2476940252e05b778cd23
                 .col-11
                   img(src='@/assets/curso/tema3/img7.svg' alt='AvatarTop')
       p.mt-5 A partir de la ubicación de estos productos del portafolio de la empresa, se deben establecer las medidas estratégicas para el sostenimiento, ampliación y defensa de estos productos, de continuar siendo atractivos y rentables para la empresa. para el caso del ejemplo es evidente que los 3 productos deben continuar y que en especial los productos 2 y 3, deben ser tratados con acciones que les permita continuar su desarrollo y crecimiento, mientras que en el producto número uno las iniciativas buscarán la defensa de la participación en el mercado y la sostenibilidad del nivel de ventas en el largo plazo.
