@@ -101,7 +101,7 @@
               span 
             h4 Matriz BCG
         p La matriz BCG (Boston Consulting Group), es una herramienta desarrollada por esta compañía como instrumento de análisis gráfico de análisis del portafolio de productos, a partir de la posición que ocupa dentro de una empresa cada producto y su tendencia; con el fin de tomar decisiones para cada uno de estos, en búsqueda de la maximización de utilidades y beneficios.
-        p Es una matriz de cuatro cuadrantes, cada uno distinguido una figura de icono, y donde cada uno de los cuales obedece a las características de comportamiento de las líneas de producto o los productos en sí.
+        p Es una matriz de cuatro cuadrantes, cada uno distinguido por una figura de icono, y donde cada uno de los cuales obedece a las características de comportamiento de las líneas de producto o los productos en sí.
         p En el caso de los productos agropecuarios, se puede realizar una por cada tipo de producto y mercado, siendo que los productos pecuarios, se podrán comparar entre sí, mientras que los productos agrícolas se podrán comparar aparte, con el fin de guardar una equilibrada comparación, ya que los lotes de inversión son diferentes.
 
       .col-lg-5
@@ -113,7 +113,7 @@
           .col-lg-10(data-aos="fade-left")
             img(src='@/assets/curso/tema3/img4.svg', alt='Texto que describa la imagen')
     .row.p-3.colort4.mt-4
-      p Estos cuadrantes se definen entre dos variables, el crecimiento en el mercado es decir como aumentan las ventas, y el eje de participación de mercado, que es cuánto de lo se vende en el sector o industria contribuye la empresa, o cuánto de lo que vende la empresa representa cada producto. Comprendido esto la labor diagnóstica de la empresa es ubicar su portafolio de productos en los cuadrantes según corresponda, puede haber varios en un solo cuadrante o cuadrantes sin productos.
+      p Estos cuadrantes se definen entre dos variables, el crecimiento en el mercado es decir como aumentan las ventas, y el eje de participación de mercado, que es cuánto de lo que se vende en el sector o industria contribuye la empresa, o cuánto de lo que vende la empresa representa cada producto. Comprendido esto la labor diagnóstica de la empresa es ubicar su portafolio de productos en los cuadrantes según corresponda, puede haber varios en un solo cuadrante o cuadrantes sin productos.
     p.mt-4 Hay que tener en cuenta que esta clasificación de productos por categorías se da a partir de:
     .row.mt-5
       .col-lg-12(data-aos="fade-up")
@@ -169,11 +169,11 @@
             .tarjeta.color-secundario.p-4
               .row.justify-content-center.mb-3
                 .col-11
-                  img(src='@/assets/curso/tema3/img7.svg' alt='AvatarTop')
+                  img(src='@/assets/curso/tema3/img8.svg' alt='AvatarTop')
             .tarjeta.color-secundario.p-4
               .row.justify-content-center.mb-3
                 .col-11
-                  img(src='@/assets/curso/tema3/img8.svg' alt='AvatarTop')
+                  img(src='@/assets/curso/tema3/img7.svg' alt='AvatarTop')
       p.mt-5 A partir de la ubicación de estos productos del portafolio de la empresa, se deben establecer las medidas estratégicas para el sostenimiento, ampliación y defensa de estos productos, de continuar siendo atractivos y rentables para la empresa. para el caso del ejemplo es evidente que los 3 productos deben continuar y que en especial los productos 2 y 3, deben ser tratados con acciones que les permita continuar su desarrollo y crecimiento, mientras que en el producto número uno las iniciativas buscarán la defensa de la participación en el mercado y la sostenibilidad del nivel de ventas en el largo plazo.
       .row.mt-5
         .col-lg-7
@@ -194,22 +194,22 @@
       ul.lista-ul.mb-5.mt-4
         li 
           i.fas.fa-angle-right.colorvi
-          | De esta manera se presentan cuatro fases: fase de introducción, fase de Crecimiento, fase de madurez, fase de declive, las cuales se describen a continuación 
+          | De esta manera se presentan cuatro fases: fase de introducción, fase de crecimiento, fase de madurez, fase de declive, las cuales se describen a continuación 
       
       AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-        .row.justify-content-center(titulo="Fase de Introducción")
+        .row.justify-content-center(titulo="Fase de introducción")
           .col-md-11.mb-4.mb-md-0
-            p Todo producto empieza comercialmente ven el momento en el que se lanza al mercado, se trata de una novedad para los clientes o consumidores porque lo desconocen, no conocen su desempeño, características etc.; lo que implica que las ventas sean bajas al principio, especialmente si la empresa o marca asociada no es muy conocida, por ello requiere de inversiones iniciales para su lanzamiento y distribución, colocación en tiendas, etc., haciendo por llegar a los clientes a través de estrategias de <i>marketing</i>, como promociones y publicidad.
-        .row.justify-content-center(titulo="Fase de Crecimiento")
+            p Todo producto empieza comercialmente en el momento en el que se lanza al mercado, se trata de una novedad para los clientes o consumidores porque lo desconocen, no conocen su desempeño, características etc.; lo que implica que las ventas sean bajas al principio, especialmente si la empresa o marca asociada no es muy conocida, por ello requiere de inversiones iniciales para su lanzamiento y distribución, colocación en tiendas, etc., haciendo por llegar a los clientes a través de estrategias de <i>marketing</i>, como promociones y publicidad.
+        .row.justify-content-center(titulo="Fase de crecimiento")
           .col-md-11.mb-4.mb-md-0
-            p Después de la introducción de un producto, se da la fase del crecimiento. como un aumento de ventas en consecuencia de las acciones que se adelantaron durante la fase de introducción. Los consumidores conocieron el producto gracias a la promoción y publicidad y demás estrategias de <i>marketing</i> que se implementaron, por lo cual ha decidido confiar en la marca y seguir comprando o recomendar su compra. 
-            p Esta fase de crecimiento se caracteriza por el aumento sostenido de las ventas y por qué se empiezan a consolidar beneficios o utilidades del producto, hay que tener en cuenta que aparecerán competidores que intentarán hacer lo mismo y mejorar el producto; razón por la cual en esta fase es importante que la empresa siga llevando su estrategia de <i>marketing</i> para diferenciarse de la competencia y hacer mejoras al producto como ventaja competitiva. El cliente reconoce y le es muy importante que le mantengan la calidad del producto como el precio, por eso lo importante de añadir un valor o servicio extra. Por otro lado, como el producto se vuelve tendencia, es muy importante el aumento de la distribución o presencia comercial donde actúa para aumentar el nuevos clientes.
-            p En esta fase la empresa recupera su inversión y empieza obtener beneficio o utilidad, por lo cual se debe tener una adecuada inversión para que esta curva de crecimiento se aumente.
-        .row.justify-content-center(titulo="Fase de Madurez")
+            p Después de la introducción de un producto, se da la fase del crecimiento, como un aumento de ventas en consecuencia de las acciones que se adelantaron durante la fase de introducción. Los consumidores conocieron el producto gracias a la promoción y publicidad y demás estrategias de <i>marketing</i> que se implementaron, por lo cual han decidido confiar en la marca y seguir comprando o recomendar su compra. 
+            p Esta fase de crecimiento se caracteriza por el aumento sostenido de las ventas y porque se empiezan a consolidar beneficios o utilidades del producto, hay que tener en cuenta que aparecerán competidores que intentarán hacer lo mismo y mejorar el producto; razón por la cual en esta fase es importante que la empresa siga llevando su estrategia de <i>marketing</i> para diferenciarse de la competencia y hacer mejoras al producto como ventaja competitiva. El cliente reconoce y le es muy importante que le mantengan tanto la calidad del producto como el precio, por eso lo importante de añadir un valor o servicio extra. Por otro lado, como el producto se vuelve tendencia, es muy importante el aumento de la distribución o presencia comercial donde actúa para aumentar nuevos clientes.
+            p En esta fase la empresa recupera su inversión y empieza a obtener beneficio o utilidad, por lo cual se debe tener una adecuada inversión para que esta curva de crecimiento se aumente.
+        .row.justify-content-center(titulo="Fase de madurez")
           .col-md-11.mb-4.mb-md-0
-            p Esta fase es en la que el producto obtiene grandes niveles de ventas en unidades, y por ende en dinero, por lo cual también tendrá que afrontar gran competencia y estos niveles de ventas pueden caer rápidamente. Muchas empresas se suelen estabilizar en esa zona por que han comprendido las exigencias de los clientes y estos atienden su oferta adecuadamente, pero la empresa empieza a tener dificultades para crecer en ventas, por la competencia que es mayor, y por qué el mercado al igual se satura, se cubre y no es fácil ahora vender más, no hay más clientes a quien vender, por eso la empresa debe buscar nuevos mercados o segmentos geográficos para llevar su producto, donde no ha tenido actividad  comercial y pueda avanzar en nuevas ventas.
+            p Esta fase es en la que el producto obtiene grandes niveles de ventas en unidades, y por ende en dinero, por lo cual también tendrá que afrontar gran competencia y estos niveles de ventas pueden caer rápidamente. Muchas empresas se suelen estabilizar en esa zona porque han comprendido las exigencias de los clientes y estos atienden su oferta adecuadamente, pero la empresa empieza a tener dificultades para crecer en ventas, por la competencia que es mayor, y porque el mercado al igual se satura, se cubre y no es fácil ahora vender más, no hay más clientes a quien vender, por eso la empresa debe buscar nuevos mercados o segmentos geográficos para llevar su producto, donde no ha tenido actividad  comercial y pueda avanzar en nuevas ventas.
             p En esta fase la empresa obtiene utilidades sobre las cuales puede disponer, y solventar gastos propios de la empresa y su actividad, así como disponer de recursos para promover iniciativas de nuevos productos, etc.
-        .row.justify-content-center(titulo="Fase de Declive")
+        .row.justify-content-center(titulo="Fase de declive")
           .col-md-11.mb-4.mb-md-0
             p Esta fase se caracteriza por un cambio en las preferencias de compra de los clientes, una menor demanda del producto por cambios en las tendencias o modas, etc., lo que se expresa en la fuerte caída de ventas; de ser este el caso el declive lo sufre también la competencia por lo que hay que entender que todos los productos tienen una vida limitada (salvo algunas excepciones que se amplían en el tiempo pero con grandes esfuerzos de mejora), por lo que llega un momento en el que entran a no aportar a la empresa beneficios ni utilidades, sino que meramente cubren sus costos o llegan inclusive a ser subsidiados por la misma empresa. Sea cual fuere la naturaleza del declive en ventas hay dos opciones, renovar el producto o retirarlo totalmente de la oferta del portafolio y del mercado en sí. Esta decisión debe tomarla la empresa en función de las necesidades del público, y de identificar si no es rescatable, ya que está en declive, lo que quiere decir que viene de grandes ventas.   
       .row.mt-5
@@ -222,9 +222,9 @@
       .row.mt-5
         .col-lg-6
           .row.colort4.p-3.marq
-            p En la figura 5, se puede correlacionar la relación existente entre el ciclo de vida del producto y la matriz BCG identificando como el crecimiento en ventas se relaciona con la participación de mercado y el tiempo con la tasa de crecimiento en ventas, lo que sirve para alinear las decisiones estratégicas en la empresa según el tipo de mercado, su clasificación y su ciclo de vida de producto.
-          .row.maqw
-          p.mt-5 Un producto con buena participación en el mercado y un crecimiento en ventas de manera sostenida puede ser la situación previa a un declive por lo cual la empresa debe hacer este análisis y prepararse para hacer un reacondicionamiento o mejoramiento a su producto en pro de alargar su etapa de madurez es decir tomar las decisiones de defender su posición relativa de mercado y seguir promoviendo el bien producto o servicio como un bien de calidad de vida para sus consumidores y como una alternativa de consumo para el mercado en general, esto es que la empresa, procurará dependiendo de la fase en que se encuentre su producto agilizar su efecto como en el caso del crecimiento ampliar la fase de maduración y cuando se empiezan a evidenciar pérdidas de atractivo en el mercado y disminución de ventas reforzar su producto a efectos de que no caiga en declive. 
+            p En la figura 5, se puede correlacionar la relación existente entre el ciclo de vida del producto y la matriz BCG identificando cómo el crecimiento en ventas se relaciona con la participación de mercado y el tiempo con la tasa de crecimiento en ventas, lo que sirve para alinear las decisiones estratégicas en la empresa según el tipo de mercado, su clasificación y su ciclo de vida de producto.
+          .row
+          p.mt-5 Un producto con buena participación en el mercado y un crecimiento en ventas de manera sostenida puede ser la situación previa a un declive por lo cual la empresa debe hacer este análisis y prepararse para hacer un reacondicionamiento o mejoramiento a su producto en pro de alargar su etapa de madurez, es decir, tomar las decisiones de defender su posición relativa de mercado y seguir promoviendo el bien producto o servicio como un bien de calidad de vida para sus consumidores y como una alternativa de consumo para el mercado en general, esto es, que la empresa procurará, dependiendo de la fase en que se encuentre su producto, agilizar su efecto como en el caso del crecimiento, ampliar la fase de maduración y cuando se empiezan a evidenciar pérdidas de atractivo en el mercado y disminución de ventas, reforzar su producto a efectos de que no caiga en declive. 
         .col-lg-6(data-aos="fade-right")
           img(src='@/assets/curso/tema3/img10.png' alt='AvatarTop')
     p.mt-4 Para la etapa de introducción los esfuerzos deben ser dinámicos ágiles, sabiendo canalizar las inversiones para el posicionamiento y conocimiento por ende del producto ante los consumidores potenciales así irá resolviendo el interrogante que representa estos productos para la matriz BCG.
@@ -264,7 +264,7 @@
             p <strong>Nominales:</strong> que no tienen orden, ejemplo los colores, las razones por las cuales hay ausentismo en el trabajo, etc. 
 
           .tarjeta.color-acento-botones.p-3(x="51.5%" y="33%" numero="+")
-            p  <strong>Ordinales:</strong> que si bien no son numéricas, si definen un sentido de ordenamiento natural, ejemplo los días de la semana lunes marte, miércoles; también como Grande, mediano, pequeño.
+            p  <strong>Ordinales:</strong> que si bien no son numéricas, sí definen un sentido de ordenamiento natural, ejemplo los días de la semana lunes, martes, miércoles; también como grande, mediano, pequeño.
 
           .tarjeta.color-acento-botones.p-3(x="83%" y="68%" numero="+")
             p <strong>Numérica:</strong> las cuales definen estrictamente un sentido de orden y se pueden hacer operaciones matemáticas con ellas, diferente a las otros tipos de variables.
@@ -345,7 +345,7 @@
                   td 13,4 %
                   td 10,7 %
                   td 100,0 %
-      p A partir de esta información suministrada por el gerente de las centrales de mercado, y quien resumió los promedios del número de Toneladas por producto que se venden diariamente en el en el mercado en una semana cualquiera, construyó el siguiente gráfico estadístico de estratificación de frecuencias de los productos.
+      p A partir de esta información suministrada por el gerente de las centrales de mercado, y quien resumió los promedios del número de Toneladas por producto que se venden diariamente en el mercado en una semana cualquiera, construyó el siguiente gráfico estadístico de estratificación de frecuencias de los productos.
       .row.justify-content-center
         .col-lg-10(data-aos="fade-right")
           .titulo-sexto.color-acento-botones.mt-3
@@ -406,9 +406,9 @@
         img(src='@/assets/curso/tema3/img14.svg', alt='Texto que describa la imagen')
     .row.mt-5
       .col-lg-6.mt-3
-        p En este caso, la variable continua es el tiempo y sus meses del primer semestre, entonces el gerente del restaurante puede identificar como es el comportamiento de ventas mensual en el semestre, lo que describe la estacionalidad de ingresos en el semestre en la empresa por ventas. 
+        p En este caso, la variable continua es el tiempo y sus meses del primer semestre, entonces el gerente del restaurante puede identificar cómo es el comportamiento de ventas mensual en el semestre, lo que describe la estacionalidad de ingresos en el semestre en la empresa por ventas. 
         .row.colort4.p-3.marq
-          p Lo cual le servirá para tomar decisiones sobre la disposición de caja y programación de pagos, así mismo, para establecer niveles de metas funcionales, es decir, en periodos de baja estacionalidad la empresa puede desarrollar actividades de capacitación entrenamientos, ya que su desarrollo y requiere periodos de concentración en estas actividades sin afectar la producción, así mismo, la implementación de nuevos procesos, tal como se ve para el mes de febrero.
+          p Lo cual le servirá para tomar decisiones sobre la disposición de caja y programación de pagos, así mismo, para establecer niveles de metas funcionales, es decir, en periodos de baja estacionalidad la empresa puede desarrollar actividades de capacitación o entrenamientos, ya que su desarrollo y requiere periodos de concentración en estas actividades sin afectar la producción, así mismo, la implementación de nuevos procesos, tal como se ve para el mes de febrero.
       .col-lg-6(data-aos="fade-right")
         img(src='@/assets/curso/tema3/img15.png', alt='Texto que describa la imagen')
     .row.mt-4
@@ -506,8 +506,8 @@
                 p Mide la capacidad de liquidez que tiene la empresa para pagar las obligaciones financieras o pasivos de corto plazo con recursos de activos corrientes o de corto plazo.
                 .row.justify-content-center
                   .col-lg-7              
-                    img.mt-5(src='@/assets/curso/tema3/f2.svg', alt='Texto que describa la imagen')
-
+                    img.mt-4(src='@/assets/curso/tema3/f2.svg', alt='Texto que describa la imagen')
+                p.mt-2 Si es mayor a 1 significa que sus activos corrientes cubren sus obligaciones de corto plazo
           .tarjeta.color-acento-botones--borde.p-4(titulo="Razón de endeudamiento")
             .row.justify-content-center
               .col-lg-11
@@ -520,7 +520,7 @@
             .row.justify-content-center
               .col-lg-11
                 h4 Nivel de cobertura de intereses
-                p Mide en que porcentaje la empresa genera utilidades operativas superiores para poder pagar los interese de sus obligaciones.
+                p Mide en qué porcentaje la empresa genera utilidades operativas superiores para poder pagar los intereses de sus obligaciones.
                 .row.justify-content-center
                   .col-lg-10         
                     img.mt-5(src='@/assets/curso/tema3/f4.svg', alt='Texto que describa la imagen')
@@ -548,7 +548,7 @@
         LineaTiempoD.color-secundario
           .row.justify-content-center(numero="1" titulo="Calidad del producto")
             .col-md-12.mb-4.mb-md-0
-              p Indica la proporción de productos defectuosos sobre el total del producto obtenido medida en unidades, en peso, o como se de la producción, pero se expresa en porcentaje, a menor valor mayor calidad del producto.
+              p Indica la proporción de productos defectuosos sobre el total del producto obtenido medida en unidades, en peso, o como se dé la producción, pero se expresa en porcentaje, a menor valor mayor calidad del producto.
               .row.justify-content-center
                 .col-lg-10
                   img(src='@/assets/curso/1.svg', alt='Texto que describa la imagen')
@@ -583,7 +583,7 @@
               .row.justify-content-center
                 .col-lg-10
                   img(src='@/assets/curso/4.svg', alt='Texto que describa la imagen')
-          .row.justify-content-center(numero="1" titulo="Nivel de ausentismo")
+          .row.justify-content-center(numero="2" titulo="Nivel de ausentismo")
             .col-md-12.mb-4.mb-md-0
               p Mide la proporción de horas no laboradas por los trabajadores, independientemente de su causal, refleja la ausencia de los trabajadores en general.
               .row.justify-content-center

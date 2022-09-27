@@ -48,7 +48,7 @@
     .row.mt-5
       .col-lg-6
         h4 Según su tamaño
-        p En Colombia a partir del decreto 957 de 2019, las organizaciones empresariales se clasifican por su tamaño en conformidad al nivel de ingresos obtenidos medidos en Unidades de Valor Tributario- UVT, según la actividad económica a la que se dedican. El valor en pesos de la UVT., cambia cada año según lo disponga el gobierno nacional a través de la Dirección de Impuestos y Aduanas Nacionales DIAN, donde para el año 2022 su valor nominal está en $38.004 = 1 UVT.
+        p En Colombia a partir del decreto 957 de 2019, las organizaciones empresariales se clasifican por su tamaño en conformidad al nivel de ingresos obtenidos medidos en Unidades de Valor Tributario- UVT, según la actividad económica a la que se dedican. El valor en pesos de la UVT, cambia cada año según lo disponga el gobierno nacional a través de la Dirección de Impuestos y Aduanas Nacionales DIAN, donde para el año 2022 su valor nominal está en $38.004 = 1 UVT.
       .col-lg-6(data-aos="fade-left")    
         img(src='@/assets/curso/tema1/img4.png', alt='Texto que describa la imagen')
     p.mt-4 En la siguiente tabla se describe el tamaño de las empresas según su nivel de ingresos en UVT.
@@ -61,11 +61,11 @@
           table
             thead
               tr
-                th Actividad empresarial
-                th Microempresa
-                th Pequeña
-                th Mediana
-                th Grande
+                th.text-center Actividad empresarial
+                th.text-center Microempresa
+                th.text-center Pequeña
+                th.text-center Mediana
+                th.text-center Grande
             tbody
               tr
                 td.text-center <strong>Comercial</strong>
@@ -95,46 +95,46 @@
           table
             thead
               tr
-                th Tipo de empresa
-                th Número de empleados
-                th Nivel de activos en salarios mínimos mensuales legales vigentes
+                th.text-center Tipo de empresa
+                th.text-center Número de empleados
+                th.text-center Nivel de activos en salarios mínimos mensuales legales vigentes
 
             tbody
               tr
                 td.text-center <strong>Microempresa</strong>
                 td.text-center 1 a 10
-                td.text-center > 1 a 500 SMMLV.
+                td.text-center  1 a 500 SMMLV.
 
               tr
                 td.text-center <strong>Pequeña</strong>
                 td.text-center 11 a 50
-                td.text-center > 501 a 5.000 SMMLV.
+                td.text-center  501 a 5.000 SMMLV.
 
               tr
                 td.text-center <strong>Mediana</strong>
                 td.text-center 51 a 200
-                td.text-center > 5.001 a 30.000 SMMLV.
+                td.text-center  5.001 a 30.000 SMMLV.
               tr
                 td.text-center <strong>Grande</strong>
                 td.text-center > a 200
-                td.text-center > a 30.000 SMMLV.
+                td.text-center  a 30.000 SMMLV.
     .row
       .col-lg-6
         h4 Según el régimen jurídico al que pertenecen
-        p El régimen es el conjunto de normas y disposiciones para la conformación y el desarrollo de iniciativas de empresa en Colombia, los cuales se establecen en conformidad al código de industria y comercio, en entre las cuales se establecen:
+        p El régimen es el conjunto de normas y disposiciones para la conformación y el desarrollo de iniciativas de empresa en Colombia, los cuales se establecen en conformidad al código de industria y comercio, entre las cuales se establecen:
         ul.lista-ul
           li 
             i.fas.fa-angle-right.colorvi
-            p.mb-0 Sociedades limitadas
+            p.mb-0 Sociedades limitadas.
           li 
             i.fas.fa-angle-right.colorvi
-            p.mb-0 Sociedades anónimas simplificadas
+            p.mb-0 Sociedades anónimas simplificadas.
           li 
             i.fas.fa-angle-right.colorvi            
-            p.mb-0 Sociedades anónimas
+            p.mb-0 Sociedades anónimas.
           li 
             i.fas.fa-angle-right.colorvi             
-            p.mb-0 Sociedades en comandita simple y por acciones
+            p.mb-0 Sociedades en comandita simple y por acciones.
           li 
             i.fas.fa-angle-right.colorvi            
             p.mb-0 Sociedades de régimen especial.      
@@ -157,7 +157,7 @@
             p <strong>Sociedades de capital:</strong>    las que se conforman exclusivamente por aportes de capital sin identificar su aportante, caso las organizaciones conformadas por acciones, sociedades anónimas.
           li 
             i.fas.fa-angle-right.colorvi
-            p <strong>Sociedades mixtas:</strong>     se conforman por personas y su aporte en capital, ejemplo las sociedades limitadas, donde figuran las personas que conforman la empresa y cuanto es su aporte en dinero.
+            p <strong>Sociedades mixtas:</strong>     se conforman por personas y su aporte en capital, ejemplo las sociedades limitadas, donde figuran las personas que conforman la empresa y cuánto es su aporte en dinero.
     
     .row.mt-5
       .col-lg-6
@@ -165,7 +165,7 @@
         ul.lista-ul
           li 
             i.fas.fa-angle-right.colorvi
-            p <strong>Comerciales:</strong>    son aquellas empresas que se dedican a la intermediación comercial meramente, su función es captar mercancías de oferentes y vincularlas a demandantes que las requieran, es decir compra y venta de mercancías meramente.
+            p <strong>Comerciales:</strong>    son aquellas empresas que se dedican a la intermediación comercial, su función es captar mercancías de oferentes y vincularlas a demandantes que las requieran, es decir compra y venta de mercancías meramente.
           li 
             i.fas.fa-angle-right.colorvi
             p <strong>Industriales o de manufactura:</strong>    son las empresas que se dedican a la transformación de materias primas, elaboración y fabricación de bienes y productos.
@@ -176,7 +176,7 @@
             
       .col-lg-6(data-aos="fade-left")    
         img(src='@/assets/curso/tema1/img7.png', alt='Texto que describa la imagen')
-    p.mt-5 También se presenta el sector productivo y según el ámbito territorial de operación, los cuales se describen de manera detallada en
+    p.mt-5 También se presenta el sector productivo y según el ámbito territorial de operación, los cuales se describen de manera detallada en:
     .col-lg-4.mt-5
       .row.colort2.align-items-center
         .col-lg-9
@@ -223,7 +223,7 @@
           h3.text-white.mt-2.mb-2 Según el ámbito territorial de operación 
         .col-lg-2
           img.wix2(src='@/assets/curso/tema1/ico1.svg', alt='Texto que describa la imagen')
-    p.mt-3 En este sentido las empresas se clasifican en conformidad a las zonas geográficas donde desarrollan su actividad de manera directamente, por lo cual pueden ser:
+    p.mt-3 En este sentido las empresas se clasifican en conformidad a las zonas geográficas donde desarrollan su actividad de manera directa, por lo cual pueden ser:
     .row.mb-5
       .col-md-6.mb-5.mb-md-0
         //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
@@ -232,7 +232,7 @@
           p(numero="1" titulo="Locales") Son las empresas que ciñen su actividad en un ámbito cercano a su planta de producción y por ende definen su área comercial en una sola localidad, municipio, su mercado se encuentra en sus alrededores o en las poblaciones aledañas a su centro de producción.
           p(numero="2" titulo="Regionales") Su operación y registro se presta en diversos municipios, puede tener su actividad industrial en uno, pero su actividad comercial y centros de acopio en otros, pero siempre restringiendo a la normatividad de cada uno de los municipios o departamentos donde opera.
           p(numero="3" titulo="Nacionales") Aquellas empresas donde pueden tener varias áreas o plantas productivas pero su comercialización cubre la mayor parte de los municipios y ciudades del país, Por ejemplo Postobón que cuenta con varias plantas embotelladoras en el país para poder cubrir los diferentes territorios comercialmente.
-          p(numero="4" titulo="Multinacionales") Son las empresas que tienen presencia y desarrollo de actividad en otros países, donde son de origen es colombiano, pero pueden desarrollar industria y comercialización de productos en otros países, ejemplo Colombina SA, desarrolla actividades industriales en Colombia, pero tiene subsidiarias en Guatemala, España, y exporta a más 50 países del mundo, en algunos tiene puntos propios.<br><br>Así mismo, pueden existir otras formas de clasificar las organizaciones, lo que permite a los emprendedores identificar cual es el criterio bajo el cual se promueve la asociación organizacional.
+          p(numero="4" titulo="Multinacionales") Son las empresas que tienen presencia y desarrollo de actividad en otros países, donde son de origen colombiano, pero pueden desarrollar industria y comercialización de productos en otros países, ejemplo Colombina SA, desarrolla actividades industriales en Colombia, pero tiene subsidiarias en Guatemala, España, y exporta a más 50 países del mundo, en algunos tiene puntos propios.<br><br>Así mismo, pueden existir otras formas de clasificar las organizaciones, lo que permite a los emprendedores identificar cuál es el criterio bajo el cual se promueve la asociación organizacional.
       .col-md-6
         img(data-aos="fade-left")(src='@/assets/curso/tema1/img12.png', alt='Texto que describa la imagen')
     separador

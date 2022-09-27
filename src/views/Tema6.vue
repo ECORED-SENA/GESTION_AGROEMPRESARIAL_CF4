@@ -9,7 +9,7 @@
     .row
       .col-lg-6
         .row.p-5.colort5
-          p La administración de las empresas agropecuarias exige el desarrollo de las cuatro fases del proceso administrativo de cualquier empresa convencional: planeación, organización, dirección y control, sobre el conjunto de recursos administrativos que dispone para su operación: (físicos, talento humano, financieros, técnicos tecnológicos) Figura: proceso administrativo muestra cual es el aporte en general de estas funciones a la empresa, así como muestra, la correlación o interdependencia entre ellas.
+          p La administración de las empresas agropecuarias exige el desarrollo de las cuatro fases del proceso administrativo de cualquier empresa convencional: planeación, organización, dirección y control, sobre el conjunto de recursos administrativos que dispone para su operación: (físicos, talento humano, financieros, técnicos tecnológicos). Figura: proceso administrativo muestra cuál es el aporte en general de estas funciones a la empresa, así como muestra, la correlación o interdependencia entre ellas.
       .col-lg-6.mt-2(data-aos="fade-right")
         img(src='@/assets/curso/tema6/img1.png', alt='Texto que describa la imagen')
     separador
@@ -18,7 +18,7 @@
     .row
       .col-lg-6
         p La planeación se define como la determinación de un conjunto de actividades que permiten identificar y sensibilizar alternativas para lograr fines, a partir de una necesidad u objetivo, en la medida en que es muy relevante.
-        p El proceso de la función de planeación contiene varias etapas que parten de la identificación de las necesidades, problema u objetivos, identificar el estado actual de la empresa, la identificación de alternativas para lograr superar la necesidad, el fin/objetivo. El proceso de planeación permite trazar la solución simultánea varios tipos de necesidades o de problemas, tal es el caso de los resultados de la matriz DOFA, donde para cada cruce de oportunidades, fortalezas, amenazas y debilidades exige diferentes actuaciones, y por ende diferentes alternativas; esto requiere que el gerente o administrador tenga habilidad de formar equipos de trabajo para construir y consensuar las diferentes alternativas de solución. 
+        p El proceso de la función de planeación contiene varias etapas que parten de la identificación de las necesidades, problema u objetivos, identificar el estado actual de la empresa, la identificación de alternativas para lograr superar la necesidad, el fin/objetivo. El proceso de planeación permite trazar la solución simultánea a varios tipos de necesidades o de problemas, tal es el caso de los resultados de la matriz DOFA, donde para cada cruce de oportunidades, fortalezas, amenazas y debilidades exige diferentes actuaciones, y por ende diferentes alternativas; esto requiere que el gerente o administrador tenga habilidad de formar equipos de trabajo para construir y consensuar las diferentes alternativas de solución. 
       .col-lg-6(data-aos="fade-right")
         img(src='@/assets/curso/tema6/img3.png', alt='Texto que describa la imagen')
     .row.bg44

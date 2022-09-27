@@ -41,7 +41,7 @@
                     li 
                       i.fas.fa-angle-right.colorvi.mb-0
                       | Los secretos del saber hacer- fórmulas, etc. 
-            div(x="70%" y="11%" tooltip="Recursos Físicos ")
+            div(x="70%" y="11%" tooltip="Recursos físicos ")
               .row.justify-content-center.colort6
                 .col-lg-10
                   h5.mt-4 Recursos Físicos 
@@ -56,7 +56,7 @@
                     li 
                       i.fas.fa-angle-right.colorvi.mb-0
                       p     <strong>Bienes inmuebles:</strong> lotes, edificios, oficinas, casas, minas, etc.
-            div(x="28%" y="11%" tooltip="Recursos Financieros")
+            div(x="28%" y="11%" tooltip="Recursos financieros")
               .row.justify-content-center.colort6
                 .col-lg-10
                   h5.mt-4 Recursos Financieros
@@ -74,7 +74,7 @@
                     li 
                       i.fas.fa-angle-right.colorvi.mb-0
                       p     <strong>Ajenos:</strong>     créditos (bancarios o extra-bancarios), cuentas por pagar, inversiones temporales (acciones comunes o preferenciales, bonos).
-            div(x="5%" y="60%" tooltip="Recursos Humanos")
+            div(x="5%" y="60%" tooltip="Recursos humanos")
               .row.justify-content-center.colort6
                 .col-lg-10
                   h5.mt-4 Recursos Humanos

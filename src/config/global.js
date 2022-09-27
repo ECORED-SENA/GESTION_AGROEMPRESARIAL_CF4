@@ -41,7 +41,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Factores y Variables que impulsan los negocios',
+        titulo: 'Factores y variables que impulsan los negocios',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -57,9 +57,22 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Diagnóstico organizacional y técnico',
+        titulo: 'Diagnóstico organizacional',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Alcance del diagnóstico empresarial administrativo',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Factores a diagnosticar',
+            hash: 't_4_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema5',
@@ -79,7 +92,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '6.1',
-            titulo: 'Planeación: Proceso',
+            titulo: 'Planeación y proceso',
             hash: 't_6_1',
           },
           {
@@ -204,7 +217,7 @@ export default {
     },
     {
       referencia:
-        'Tlaxcala, I. t. (s.f.). Herramientas Estadisticas- Instituto tecnológico Apizaco de Tlaxcala. Obtenido de Herramientas Estadisticas:',
+        'Tlaxcala, I. t. (s.f.). Herramientas Estadísticas- Instituto tecnológico Apizaco de Tlaxcala. Obtenido de Herramientas Estadísticas:',
       link:
         'https://alfredogutierrez.weebly.com/16-herramientas-estadisticas.html',
     },
@@ -252,7 +265,7 @@ export default {
     {
       termino: 'Proceso administrativo',
       significado:
-        'Serie de fases de actividades que buscan dar un eficiente uso de los recursos y facilitar la dinámica empresarial, es decir facilitar el cumplimiento de su propósito empresarial',
+        'Serie de fases de actividades que buscan dar un eficiente uso de los recursos y facilitar la dinámica empresarial, es decir, facilitar el cumplimiento de su propósito empresarial',
     },
     {
       termino: 'Objetivos',
