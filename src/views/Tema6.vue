@@ -69,21 +69,21 @@
       p Entre los recursos físicos de activos que posee la empresa para su operación se encuentran los inventarios, es decir existencias de recursos para transformación, venta, uso o cualquier otro aspecto con fines operativos, que se encuentran almacenados en bodega, a espera de ser utilizados, los cuales regularmente se ordenan de la siguiente manera según su clase:
       .tarjeta.tarjeta--gris.p-4.mb-5
         LineaTiempoC.color-acento-contenido(text-small)
-          .row.justify-content-center.px-4.ml
+          .row.justify-content-center.px-4.mlc
             .col-md-10.mb-4.mb-md-0.col-lg-5.pe-5
               h5 Inventario de activos
               p Con el conjunto de recursos de capital con que cuenta la organización para su operación y el trabajo de los individuos. Se clasifican en bienes muebles e inmuebles, ejemplo: computadores muebles y escritorios, bodegas, lotes, fincas, etc.. 
             .col-md-10.col-lg-5.pe-5
               figure
                 img(src='@/assets/curso/tema6/1.png', alt='Texto que describa la imagen')
-          .row.justify-content-center.px-4.ml
+          .row.justify-content-center.px-4.mlc
             .col-md-10.mb-4.mb-md-0.col-lg-5.pe-5
               h5 Inventario de productos terminados
               p Son aquellos productos que ya tienen completa su agregación de valor cumplieron su proceso de producción y están esperando para ser distribuidos.
             .col-md-10.col-lg-5.pe-5
               figure
                 img(src='@/assets/curso/tema6/2.png', alt='Texto que describa la imagen')
-          .row.justify-content-center.px-4.ml
+          .row.justify-content-center.px-4.mlc
             .col-md-10.mb-4.mb-md-0.col-lg-5.pe-5
               h5 Inventarios de materias primas
 
@@ -91,21 +91,21 @@
             .col-md-10.col-lg-5.pe-5
               figure
                 img(src='@/assets/curso/tema6/3.png', alt='Texto que describa la imagen')
-          .row.justify-content-center.px-4.ml
+          .row.justify-content-center.px-4.mlc
             .col-md-10.mb-4.mb-md-0.col-lg-5.pe-5
               h5 Inventarios de productos en proceso
               p Son aquellas materias primas, que ya han sufrido algún proceso de agregación de valor o transformación, pero que aún no han sido terminados totalmente. Ejemplo: producción de huevos que no han sido preparados, pesados, y embalados. Leche que se encuentra pasteurizada, pero no empacada está en silos.
             .col-md-10.col-lg-5.pe-5
               figure
                 img(src='@/assets/curso/tema6/4.png', alt='Texto que describa la imagen')
-          .row.justify-content-center.px-4.ml
+          .row.justify-content-center.px-4.mlc
             .col-md-10.mb-4.mb-md-0.col-lg-5.pe-5
               h5 Inventario de obsoletos
               p Es el inventario que posee la empresa de productos que ya están obsoletos, deteriorados, que cumplieron su vida útil o caducaron, dañados o estropeados y no pueden ser comercializados ni distribuidos.
             .col-md-10.col-lg-5.pe-5
               figure
                 img(src='@/assets/curso/tema6/5.png', alt='Texto que describa la imagen')
-          .row.justify-content-center.px-4.ml
+          .row.justify-content-center.px-4.mlc
             .col-md-10.mb-4.mb-md-0.col-lg-5.pe-5
               h5 Inventario de repuestos 
 
