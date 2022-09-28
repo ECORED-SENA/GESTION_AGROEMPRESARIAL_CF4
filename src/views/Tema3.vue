@@ -410,7 +410,7 @@
       .col-lg-6.mt-3
         p En este caso, la variable continua es el tiempo y sus meses del primer semestre, entonces el gerente del restaurante puede identificar cómo es el comportamiento de ventas mensual en el semestre, lo que describe la estacionalidad de ingresos en el semestre en la empresa por ventas. 
         .row.colort4.p-3.marq
-          p Lo cual le servirá para tomar decisiones sobre la disposición de caja y programación de pagos, así mismo, para establecer niveles de metas funcionales, es decir, en periodos de baja estacionalidad la empresa puede desarrollar actividades de capacitación o entrenamientos, ya que su desarrollo y requiere periodos de concentración en estas actividades sin afectar la producción, así mismo, la implementación de nuevos procesos, tal como se ve para el mes de febrero.
+          p Lo cual le servirá para tomar decisiones sobre la disposición de caja y programación de pagos, así mismo, para establecer niveles de metas funcionales, es decir, en periodos de baja estacionalidad la empresa puede desarrollar actividades de capacitación o entrenamientos, ya que su desarrollo requiere periodos de concentración en estas actividades sin afectar la producción, así mismo, la implementación de nuevos procesos, tal como se ve para el mes de febrero.
       .col-lg-6(data-aos="fade-right")
         img(src='@/assets/curso/tema3/img15.png', alt='Texto que describa la imagen')
     .row.mt-4
@@ -429,7 +429,7 @@
         .col-lg-6
           .titulo-sexto.color-acento-botones.mt-3
             h5 Tabla 3
-            span Ejemplo de toneladas de verduras vendidas por tipo de mercado  
+            span Ejemplo de número de clientes por región
           .tabla-a.color-primario.mb-5.ff
             table
               thead

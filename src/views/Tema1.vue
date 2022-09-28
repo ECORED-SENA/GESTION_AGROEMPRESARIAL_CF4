@@ -117,7 +117,7 @@
               tr
                 td.text-center <strong>Grande</strong>
                 td.text-center > a 200
-                td.text-center  a 30.000 SMMLV.
+                td.text-center > a 30.000 SMMLV.
     .row
       .col-lg-6
         h4 Según el régimen jurídico al que pertenecen

@@ -28,7 +28,7 @@
                   ul.lista-ul
                     li 
                       i.fas.fa-angle-right.colorvi.mb-0
-                      p El <i>software</i>
+                      p.mb-0 El <i>software</i>
                     li 
                       i.fas.fa-angle-right.colorvi.mb-0
                       |  El sistema de ventas
@@ -44,7 +44,7 @@
             div(x="70%" y="11%" tooltip="Recursos físicos ")
               .row.justify-content-center.colort6
                 .col-lg-10
-                  h5.mt-4 Recursos Físicos 
+                  h5.mt-4 Recursos físicos 
 
                   p Son los recursos tangibles que posee la empresa para el desarrollo de sus actividades, los cuales se clasifican como:
 
@@ -59,7 +59,7 @@
             div(x="28%" y="11%" tooltip="Recursos financieros")
               .row.justify-content-center.colort6
                 .col-lg-10
-                  h5.mt-4 Recursos Financieros
+                  h5.mt-4 Recursos financieros
 
 
                   p Son los recursos eminentemente monetarios que necesita la empresa para el desarrollo de las actividades, los cuales pueden ser:
@@ -68,16 +68,16 @@
                   ul.lista-ul
                     li 
                       i.fas.fa-angle-right.colorvi.mb-0
-                      p    <strong>Propios:</strong>     caja, bancos, Inversiones temporales que tenga la empresa (acciones, CDTs, bonos, etc), cuentas por cobrar.
+                      p    <strong>Propios:</strong>     caja, bancos, Inversiones temporales que tenga la empresa (acciones, CDT, bonos, etc), cuentas por cobrar.
 
 
                     li 
                       i.fas.fa-angle-right.colorvi.mb-0
-                      p     <strong>Ajenos:</strong>     créditos (bancarios o extra-bancarios), cuentas por pagar, inversiones temporales (acciones comunes o preferenciales, bonos).
+                      p     <strong>Ajenos:</strong>     créditos (bancarios o extrabancarios), cuentas por pagar, inversiones temporales (acciones comunes o preferenciales, bonos).
             div(x="5%" y="60%" tooltip="Recursos humanos")
               .row.justify-content-center.colort6
                 .col-lg-10
-                  h5.mt-4 Recursos Humanos
+                  h5.mt-4 Recursos humanos
                   p Son las personas vinculadas con la empresa:
                   ul.lista-ul
                     li 

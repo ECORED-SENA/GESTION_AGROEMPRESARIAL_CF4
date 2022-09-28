@@ -62,7 +62,7 @@
                 h5.mb-1 Tabla 6
                 p Ejemplo de Organización de áreas, actividades y recursos en una empresa
               .col-sm-auto
-                a.boton.color-acento-botones(:href="obtenerLink('downloads/anexo.pdf')" target="_blank")
+                a.boton.color-acento-botones(:href="obtenerLink('downloads/anexo.xlsx')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download
       h4 Recursos de inventario
