@@ -713,7 +713,7 @@ export default {
         {
           personaje: 'Andres',
           textoIng:
-            'Andres! mil gracias por la información, juntas pudimos complementar y aportar en este tema. Seguimos en contacto.',
+            '¡Andres! mil gracias por la información, juntos pudimos complementar y aportar en este tema. Seguimos en contacto.',
           audio: require('@/assets/componentes/audios/audio-ej.mp3'),
         },
       ],
