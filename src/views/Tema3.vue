@@ -160,7 +160,7 @@
     p.mt-5.text-center En la figura anterior se pueden identificar 3 productos del portafolio de una empresa cada uno ubicado en un cuadrante diferente:
     .row.justify-content-center.bg1
       .col-lg-10.col-md-12.col-sm-12
-        DialogoChat.color-acento-contenido.chat-media(:dialogo="dialogoChat")
+        DialogoChat.color-acento-contenido.chat-media.bgChat(:dialogo="dialogoChat")
       //- .row.justify-content-center
       //-   .col-lg-10
       //-     SlyderF(columnas="col-12")            
