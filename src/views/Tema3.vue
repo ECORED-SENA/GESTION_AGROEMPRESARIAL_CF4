@@ -158,24 +158,26 @@
    
       .col-lg-4
     p.mt-5.text-center En la figura anterior se pueden identificar 3 productos del portafolio de una empresa cada uno ubicado en un cuadrante diferente:
-    .row.bg1
-      .row.justify-content-center
-        .col-lg-10
-          SlyderF(columnas="col-12")            
-            .row.align-items-center.mb-3.slyderF-media
-              .col-11.tarjeta.color-secundario.p-4
-                img(src='@/assets/curso/tema3/img6.svg' alt='AvatarTop')
-            .row.align-items-center.mb-3.slyderF-media
-              .col-11.tarjeta.color-secundario.p-4
-                .col-11
-                  img(src='@/assets/curso/tema3/img8.svg' alt='AvatarTop')
-            .tarjeta.color-secundario.p-4
-              .row.justify-content-center.mb-3
-                  img(src='@/assets/curso/tema3/img7.svg' alt='AvatarTop')
-            .row.align-items-center.mb-3.slyderF-media
-              .col-11.tarjeta.color-secundario.p-4
-                .col-11
-                  img(src='@/assets/curso/tema3/img7.svg' alt='AvatarTop')
+    .row.justify-content-center.bg1
+      .col-lg-10.col-md-12.col-sm-12
+        DialogoChat.color-acento-contenido.chat-media(:dialogo="dialogoChat")
+      //- .row.justify-content-center
+      //-   .col-lg-10
+      //-     SlyderF(columnas="col-12")            
+      //-       .row.align-items-center.mb-3.slyderF-media
+      //-         .col-11.tarjeta.color-secundario.p-4
+      //-           img(src='@/assets/curso/tema3/img6.svg' alt='AvatarTop')
+      //-       .row.align-items-center.mb-3.slyderF-media
+      //-         .col-11.tarjeta.color-secundario.p-4
+      //-           .col-11
+      //-             img(src='@/assets/curso/tema3/img8.svg' alt='AvatarTop')
+      //-       .tarjeta.color-secundario.p-4
+      //-         .row.justify-content-center.mb-3
+      //-             img(src='@/assets/curso/tema3/img7.svg' alt='AvatarTop')
+      //-       .row.align-items-center.mb-3.slyderF-media
+      //-         .col-11.tarjeta.color-secundario.p-4
+      //-           .col-11
+      //-             img(src='@/assets/curso/tema3/img7.svg' alt='AvatarTop')
       p.mt-5 A partir de la ubicación de estos productos del portafolio de la empresa, se deben establecer las medidas estratégicas para el sostenimiento, ampliación y defensa de estos productos, de continuar siendo atractivos y rentables para la empresa. para el caso del ejemplo es evidente que los 3 productos deben continuar y que en especial los productos 2 y 3, deben ser tratados con acciones que les permita continuar su desarrollo y crecimiento, mientras que en el producto número uno las iniciativas buscarán la defensa de la participación en el mercado y la sostenibilidad del nivel de ventas en el largo plazo.
       .row.mt-5
         .col-lg-7
@@ -642,17 +644,80 @@
         img(src='@/assets/curso/tema3/img23.svg', alt='Texto que describa la imagen')
 
       .col-lg-6
-        img(src='@/assets/curso/tema3/img24.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/tema3/a1.png', alt='Texto que describa la imagen')
     p.text-small.mt-4 Nota. https://bit.ly/3yQZfBg
     p Estos recursos de información sectorial se pueden obtener de informes de las entidades gremiales como son: Finagro, Fedearroz, Fedepapa, Agronet, Sociedad de agricultores de Colombia, Ministerio de Agricultura, así mismo el Departamento Administrativo Nacional de Estadística DANE, recoge y/o calcula indicadores del sector agropecuario que sirve como parámetro para los ejercicios diagnósticos y de planeación en las empresas del sector.
 </template>
 
 <script>
+import DialogoChat from '../components/DialogoChat.vue'
 export default {
   name: 'Tema3',
-  components: {},
+  components: {
+    DialogoChat,
+  },
   data: () => ({
-    // variables de vue
+    dialogoChat: {
+      personajes: [
+        {
+          nombre: 'Camilo',
+          img: require('@/assets/curso/tema3/a1.png'),
+        },
+        {
+          nombre: 'Andres',
+          img: require('@/assets/curso/tema3/a2.png'),
+        },
+      ],
+      dialogo: [
+        {
+          personaje: 'Camilo',
+          textoIng:
+            'Hola Camilo, viste lo de la clasificación de los productos por categorías?',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Andres',
+          textoIng:
+            'Si, allí se puede identificar 3 productos del portafolio de una empresa cada uno ubicado en un cuadrante diferente ',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Camilo',
+          textoIng:
+            'De hecho se presenta el ejemplo a través de la aplicación de matriz BCG',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Andres',
+          textoIng:
+            'El producto número uno presenta un nivel de participación en el mercado alto superior al del competidor más cercano sin embargo presenta un nivel de crecimiento en ventas cercano al 5%, lo que deja entrever que la empresa que oferta este producto cada vez le es más difícil conseguir mejores resultados de ventas es decir crecer más, esta condición hace que esté ubicado en el cuadrante de las vacas lecheras donde el deber ser del empresario es mantener su participación en el mercado y propender a aumentar el crecimiento en ventas sino defenderlo.',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Camilo',
+          textoIng:
+            'El producto número 2 presenta un nivel de participación en el mercado alto, por encima de sus competidores cercanos, con un fuerte crecimiento en ventas lo que lo caracteriza como un producto en la fase de crecimiento. es un producto que en magnitud puede manejar más volúmenes que el producto número uno sin embargo aún se encuentra en la etapa de crecimiento y por ser esta mayor al 10% se presume que aún puede mejorar este crecimiento durante un tiempo, luego la decisión estratégica es mantener su inversión con el fin de garantizar este propósito de tal manera que cuando llegue a su etapa de madurez goce de las mejores condiciones de ventas y de participación en el mercado, donde seguramente será fuente de grandes beneficios para la empresa.',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Andres',
+          textoIng:
+            'El producto 3 ubicado en el cuadrante de productos de interrogación, es quizá el producto más joven en la organización su cuota de participación en el mercado está por debajo de lo que hace su competencia, sin embargo, las ventas demuestran un crecimiento superior al 15%, lo que deja entrever un certero producto que entrará a su fase de crecimiento y ampliación por ende de la participación en el mercado.',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Camilo',
+          textoIng: '...',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+        {
+          personaje: 'Andres',
+          textoIng:
+            'Andres! mil gracias por la información, juntas pudimos complementar y aportar en este tema. Seguimos en contacto.',
+          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+        },
+      ],
+    },
   }),
   mounted() {
     this.$nextTick(() => {
