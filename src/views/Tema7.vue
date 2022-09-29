@@ -21,7 +21,7 @@
         img(src='@/assets/curso/tema7/1.png', alt='Texto que describa la imagen')
     figure.mb-5.mt-4
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/mBlUK32UBB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/qibhloR4Jlo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row
       .col-lg-7
         ol.lista-ol--cuadro.mt-4
